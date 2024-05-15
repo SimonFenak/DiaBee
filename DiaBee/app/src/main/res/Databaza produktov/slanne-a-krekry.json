@@ -1,0 +1,826 @@
+[
+    [
+        "Potravina / jedlo",
+        "Priemerné sacharidy",
+        "Množstvo SJ na jednotku hmotnosti",
+        "Množstvo SJ na 10 g výrobku",
+        "Množstvo g zodpovedajúce 1 SJ",
+        ""
+    ],
+    [
+        "marantové lupienky - paradajka a bazalka (65,00 g)",
+        "41,34 g",
+        "4,13",
+        "0,64",
+        "15,74 g",
+        ""
+    ],
+    [
+        "AAmarantové lupienky paradajka a bazalka (Nový Vek) (65,00 g)",
+        "46,74 g",
+        "4,67",
+        "0,72",
+        "13,92 g",
+        ""
+    ],
+    [
+        "Argente cesnakové, šunkové - pikantná rožteky zo Španielska (Racio) (160,00 g)",
+        "81,60 g",
+        "8,16",
+        "0,51",
+        "19,61 g",
+        ""
+    ],
+    [
+        "Bake rolls - cibuľové (100,00 g)",
+        "62,00 g",
+        "6,20",
+        "0,62",
+        "16,13 g",
+        ""
+    ],
+    [
+        "Bohemia Chips - horská soľ (90,00 g)",
+        "43,20 g",
+        "4,32",
+        "0,48",
+        "20,83 g",
+        ""
+    ],
+    [
+        "Bohemia Chips - juhočeská smotana (90,00 g)",
+        "43,20 g",
+        "4,32",
+        "0,48",
+        "20,83 g",
+        ""
+    ],
+    [
+        "Bohemia Chips - moravská slanina (90,00 g)",
+        "43,20 g",
+        "4,32",
+        "0,48",
+        "20,83 g",
+        ""
+    ],
+    [
+        "Bohemia Chips - tri korenia (90,00 g)",
+        "43,20 g",
+        "4,32",
+        "0,48",
+        "20,83 g",
+        ""
+    ],
+    [
+        "Crackers - slané krekery (Schär) (100,00 g)",
+        "78,80 g",
+        "7,88",
+        "0,79",
+        "12,69 g",
+        ""
+    ],
+    [
+        "Crocamtte snack - cibuľa a smotana (Racio) (30,00 g)",
+        "19,86 g",
+        "1,99",
+        "0,66",
+        "15,08 g",
+        ""
+    ],
+    [
+        "Crocamtte snack - cesnak (Racio) (30,00 g)",
+        "19,89 g",
+        "1,99",
+        "0,66",
+        "15,08 g",
+        ""
+    ],
+    [
+        "Crocamtte snack - slanina (Racio) (30,00 g)",
+        "19,95 g",
+        "2,00",
+        "0,67",
+        "15 g",
+        ""
+    ],
+    [
+        "Crocamtte snack - syr Chedar (Racio) (30,00 g)",
+        "19,74 g",
+        "1,97",
+        "0,66",
+        "15,23 g",
+        ""
+    ],
+    [
+        "Diabolské tyčinky (Canto) (100,00 g)",
+        "68,90 g",
+        "6,89",
+        "0,69",
+        "14,51 g",
+        ""
+    ],
+    [
+        "Fit snack raciolky - cibuľa a smotana (Racio) (30,00 g)",
+        "19,86 g",
+        "1,99",
+        "0,66",
+        "15,08 g",
+        ""
+    ],
+    [
+        "Fit snack raciolky - cesnak (Racio) (30,00 g)",
+        "19,89 g",
+        "1,99",
+        "0,66",
+        "15,08 g",
+        ""
+    ],
+    [
+        "Fit snack raciolky - cheddar (Racio) (30,00 g)",
+        "19,74 g",
+        "1,97",
+        "0,66",
+        "15,23 g",
+        ""
+    ],
+    [
+        "Fit snack raciolky - slanina (Racio) (30,00 g)",
+        "19,95 g",
+        "2,00",
+        "0,67",
+        "15 g",
+        ""
+    ],
+    [
+        "Grahamové tyčinky (pekáreň Kráľ) (100,00 g)",
+        "64,40 g",
+        "6,44",
+        "0,64",
+        "15,53 g",
+        ""
+    ],
+    [
+        "Grissini slané tyčinky (Schär) (100,00 g)",
+        "79,90 g",
+        "7,99",
+        "0,80",
+        "12,52 g",
+        ""
+    ],
+    [
+        "Chipsy Bersi - šunkové (100,00 g)",
+        "43,20 g",
+        "4,32",
+        "0,43",
+        "23,15 g",
+        ""
+    ],
+    [
+        "Jablkové zemiačiky (Marks & Spencer) (100,00 g)",
+        "46,00 g",
+        "4,60",
+        "0,46",
+        "21,74 g",
+        ""
+    ],
+    [
+        "Chrumky arašidové (70,00 g)",
+        "33,53 g",
+        "3,35",
+        "0,48",
+        "20,90 g",
+        ""
+    ],
+    [
+        "Lays chipsy - paprika (100,00 g)",
+        "50,00 g",
+        "5,00",
+        "0,5",
+        "20 g",
+        ""
+    ],
+    [
+        "Lays chipsy - slanina (100,00 g)",
+        "50,00 g",
+        "5,00",
+        "0,5",
+        "20 g",
+        ""
+    ],
+    [
+        "Lays chipsy - soľ (100,00 g)",
+        "49,00 g",
+        "4,90",
+        "0,49",
+        "20,41 g",
+        ""
+    ],
+    [
+        "Lupeto solené (100,00 g)",
+        "64,00 g",
+        "6,40",
+        "0,64",
+        "15,62 g",
+        ""
+    ],
+    [
+        "Lupeto solené (100,00 g)",
+        "64,00 g",
+        "6,40",
+        "0,64",
+        "15,62 g",
+        ""
+    ],
+    [
+        "Mini Bake Crisps - cesnakové (Frozen Dream) (100,00 g)",
+        "64,80 g",
+        "6,48",
+        "0,65",
+        "15,43 g",
+        ""
+    ],
+    [
+        "Mini bread chips - chrumkavé chlebovej chrumky (Tottis) (90,00 g)",
+        "60,30 g",
+        "6,03",
+        "0,67",
+        "14,93 g",
+        ""
+    ],
+    [
+        "Mini rybky so sezamom (100,00 g)",
+        "57,63 g",
+        "5,76",
+        "0,58",
+        "17,36 g",
+        ""
+    ],
+    [
+        "Olivové krekery (Marks & Spencer) (100,00 g)",
+        "59,40 g",
+        "5,94",
+        "0,59",
+        "16,84 g",
+        ""
+    ],
+    [
+        "Ovsené mini krekery s čiernym korením BIO (Marks & Spencer) (100,00 g)",
+        "55,50 g",
+        "5,55",
+        "0,56",
+        "18,02 g",
+        ""
+    ],
+    [
+        "Pizzirilli sušienky so syrovou príchuťou (Schär) (100,00 g)",
+        "74,10 g",
+        "7,41",
+        "0,74",
+        "13,50 g",
+        ""
+    ],
+    [
+        "Pringles - cibuľa (100,00 g)",
+        "49,00 g",
+        "4,90",
+        "0,49",
+        "20,41 g",
+        ""
+    ],
+    [
+        "Pringles - originál (100,00 g)",
+        "47,00 g",
+        "4,70",
+        "0,47",
+        "21,28 g",
+        ""
+    ],
+    [
+        "Pringles - paprika (100,00 g)",
+        "49,00 g",
+        "4,90",
+        "0,49",
+        "20,41 g",
+        ""
+    ],
+    [
+        "Raciolky - pizza (Racio) (60,00 g)",
+        "37,20 g",
+        "3,72",
+        "0,62",
+        "16,13 g",
+        ""
+    ],
+    [
+        "Raciolky - pšeničné (Racio) (50,00 g)",
+        "35,15 g",
+        "3,52",
+        "0,70",
+        "14,20 g",
+        ""
+    ],
+    [
+        "Raciolky - ryžové (Racio) (50,00 g)",
+        "41,45 g",
+        "4,14",
+        "0,83",
+        "12,08 g",
+        ""
+    ],
+    [
+        "Raciolky - syrové (Racio) (60,00 g)",
+        "41,28 g",
+        "4,13",
+        "0,69",
+        "14,53 g",
+        ""
+    ],
+    [
+        "Raciolky - tomato, mozarella, olivy (Racio) (60,00 g)",
+        "37,20 g",
+        "3,72",
+        "0,62",
+        "16,13 g",
+        ""
+    ],
+    [
+        "Salt - slané sušienky (Schär) (100,00 g)",
+        "69,80 g",
+        "6,98",
+        "0,70",
+        "14,33 g",
+        ""
+    ],
+    [
+        "Slané krekry Telka s príchuťou slaninky (100,00 g)",
+        "62,00 g",
+        "6,20",
+        "0,62",
+        "16,13 g",
+        ""
+    ],
+    [
+        "Syrové chrumky - Cheese Puffs (CRUSTY Croc) (100,00 g)",
+        "55,00 g",
+        "5,50",
+        "0,55",
+        "18,18 g",
+        ""
+    ],
+    [
+        "Špaldové krekry s tekvicovým semienkom a cesnakom BIO (biopekáreň zemianka) (100,00 g)",
+        "42,60 g",
+        "4,26",
+        "0,43",
+        "23,47 g",
+        ""
+    ],
+    [
+        "Špaldové krekry s rozmarínom BIO (biopekáreň zemianka) (100,00 g)",
+        "46,80 g",
+        "4,68",
+        "0,47",
+        "21,37 g",
+        ""
+    ],
+    [
+        "Špaldové krekry so sezamom a sójovou omáčkou BIO (biopekáreň zemianka) (100,00 g)",
+        "39,00 g",
+        "3,90",
+        "0,39",
+        "25,64 g",
+        ""
+    ],
+    [
+        "Telka klasik (100,00 g)",
+        "73,30 g",
+        "7,33",
+        "0,73",
+        "13,64 g",
+        ""
+    ],
+    [
+        "Telka linea - zemiakové lupienky (Opavia) (100,00 g)",
+        "69,80 g",
+        "6,98",
+        "0,70",
+        "14,33 g",
+        ""
+    ],
+    [
+        "Telka maková (100,00 g)",
+        "61,90 g",
+        "6,19",
+        "0,62",
+        "16,16 g",
+        ""
+    ],
+    [
+        "Telka slaná (100,00 g)",
+        "59,20 g",
+        "5,92",
+        "0,59",
+        "16,89 g",
+        ""
+    ],
+    [
+        "Tortilla Chips (kukuričné ??lupienky) (100,00 g)",
+        "65,00 g",
+        "6,50",
+        "0,65",
+        "15,38 g",
+        ""
+    ],
+    [
+        "Tortilla Chips Chilli - kukuričné ??chipsy (El Tequito) (100,00 g)",
+        "65,40 g",
+        "6,54",
+        "0,65",
+        "15,29 g",
+        ""
+    ],
+    [
+        "Vitalinea - Slané krekry (Opavia) (100,00 g)",
+        "71,50 g",
+        "7,15",
+        "0,72",
+        "13,99 g",
+        ""
+    ],
+    [
+        "Vitalinea - Slané krekry s provensálskym korením (Opavia) (100,00 g)",
+        "70,50 g",
+        "7,05",
+        "0,70",
+        "14,18 g",
+        ""
+    ],
+    [
+        "Schar Crackers (100,00 g)",
+        "78,60 g",
+        "7,86",
+        "0,79",
+        "12,72 g",
+        ""
+    ],
+    [
+        "Schar Salinis (100,00 g)",
+        "72,00 g",
+        "7,20",
+        "0,72",
+        "13,89 g",
+        ""
+    ],
+    [
+        "Well Snack kečup Cibi (100,00 g)",
+        "62,00 g",
+        "6,20",
+        "0,62",
+        "16,13 g",
+        ""
+    ],
+    [
+        "Well Snack morská soľ Cibi (100,00 g)",
+        "62,00 g",
+        "6,20",
+        "0,62",
+        "16,13 g",
+        ""
+    ],
+    [
+        "Pohánkové tyčinky (Novalim) (100,00 g)",
+        "76,60 g",
+        "7,66",
+        "0,77",
+        "13,05 g",
+        ""
+    ],
+    [
+        "Slovakia Chips horská soľ (100,00 g)",
+        "49,00 g",
+        "4,90",
+        "0,49",
+        "20,41 g",
+        ""
+    ],
+    [
+        "Slovakia Chips s príchuťou rozmarínuhorská soľ (100,00 g)",
+        "48,00 g",
+        "4,80",
+        "0,48",
+        "20,83 g",
+        ""
+    ],
+    [
+        "slovakia Chips lesné huby (100,00 g)",
+        "49,00 g",
+        "4,90",
+        "0,49",
+        "20,41 g",
+        ""
+    ],
+    [
+        "Slovakia Chips zbojský špíz (100,00 g)",
+        "49,00 g",
+        "4,90",
+        "0,49",
+        "20,41 g",
+        ""
+    ],
+    [
+        "Sloakia Chips cibuľková smotana  (100,00 g)",
+        "49,00 g",
+        "4,90",
+        "0,49",
+        "20,41 g",
+        ""
+    ],
+    [
+        "Slovakia Chips gazdovská slanina (100,00 g)",
+        "49,00 g",
+        "4,90",
+        "0,49",
+        "20,41 g",
+        ""
+    ],
+    [
+        "Slovakia Chips ľahodná paprika  (100,00 g)",
+        "47,00 g",
+        "4,70",
+        "0,47",
+        "21,28 g",
+        ""
+    ],
+    [
+        "Slovakia Chips GRANDE morská soľ (100,00 g)",
+        "48,00 g",
+        "4,80",
+        "0,48",
+        "20,83 g",
+        ""
+    ],
+    [
+        "Slovakia Chips GRANDE syrové variácie  (100,00 g)",
+        "49,00 g",
+        "4,90",
+        "0,49",
+        "20,41 g",
+        ""
+    ],
+    [
+        "Slovakia Chips GRANDE s príchuťou papriky & rajčiny  (100,00 g)",
+        "49,00 g",
+        "4,90",
+        "0,49",
+        "20,41 g",
+        ""
+    ],
+    [
+        "Tradičné slovenské zemiačiky solené  (100,00 g)",
+        "53,00 g",
+        "5,30",
+        "0,53",
+        "18,87 g",
+        ""
+    ],
+    [
+        "Slovakia SENZA Chips s príchuťou wasabi  (100,00 g)",
+        "47,00 g",
+        "4,70",
+        "0,47",
+        "21,28 g",
+        ""
+    ],
+    [
+        "Slovakia SENZA Chips s príchuťou cheddar  (100,00 g)",
+        "47,00 g",
+        "4,70",
+        "0,47",
+        "21,28 g",
+        ""
+    ],
+    [
+        "Slovakia SENZA Chips s príchuťou pikantného chilli (100,00 g)",
+        "48,00 g",
+        "4,80",
+        "0,48",
+        "20,83 g",
+        ""
+    ],
+    [
+        "Slovakia SENZA Chips s príchuťou gurmánskej horčice (100,00 g)",
+        "48,00 g",
+        "4,80",
+        "0,48",
+        "20,83 g",
+        ""
+    ],
+    [
+        "Slovakia STIX s príchuťou jemného kečupu (100,00 g)",
+        "49,00 g",
+        "4,90",
+        "0,49",
+        "20,41 g",
+        ""
+    ],
+    [
+        "Slovakia tyčinky smotanové (100,00 g)",
+        "64,00 g",
+        "6,40",
+        "0,64",
+        "15,62 g",
+        ""
+    ],
+    [
+        "Slovakia tyčinky solené (100,00 g)",
+        "68,00 g",
+        "6,80",
+        "0,68",
+        "14,71 g",
+        ""
+    ],
+    [
+        "Slovakia tyčinky syrové (100,00 g)",
+        "58,00 g",
+        "5,80",
+        "0,58",
+        "17,24 g",
+        ""
+    ],
+    [
+        "Slovakia MAXI tyčinky solené (100,00 g)",
+        "68,90 g",
+        "6,89",
+        "0,69",
+        "14,51 g",
+        ""
+    ],
+    [
+        "Slovakia tyčinky zemiakové (100,00 g)",
+        "62,00 g",
+        "6,20",
+        "0,62",
+        "16,13 g",
+        ""
+    ],
+    [
+        "Slovakia tyčinky paprikové (100,00 g)",
+        "63,00 g",
+        "6,30",
+        "0,63",
+        "15,87 g",
+        ""
+    ],
+    [
+        "Slovakia Maxi Mix (100,00 g)",
+        "61,00 g",
+        "6,10",
+        "0,61",
+        "16,39 g",
+        ""
+    ],
+    [
+        "Slovakia FAJN krekre solené (100,00 g)",
+        "52,00 g",
+        "5,20",
+        "0,52",
+        "19,23 g",
+        ""
+    ],
+    [
+        "Slovakia Mini Rolls s príchuťou grilovaného špízu (100,00 g)",
+        "66,00 g",
+        "6,60",
+        "0,66",
+        "15,15 g",
+        ""
+    ],
+    [
+        "Slovakia Mini Rolls morská soľ (100,00 g)",
+        "67,00 g",
+        "6,70",
+        "0,67",
+        "14,93 g",
+        ""
+    ],
+    [
+        "Slovakia Mini Rolls s príchuťou cesnaku (100,00 g)",
+        "66,00 g",
+        "6,60",
+        "0,66",
+        "15,15 g",
+        ""
+    ],
+    [
+        "Slovakia SUPER hearts soľ  (100,00 g)",
+        "57,00 g",
+        "5,70",
+        "0,57",
+        "17,54 g",
+        ""
+    ],
+    [
+        "Slovakia SUPER cornitos tri korenia & soľ  (100,00 g)",
+        "51,00 g",
+        "5,10",
+        "0,51",
+        "19,61 g",
+        ""
+    ],
+    [
+        "Slovakia SUPER nachos s príchuťou chilli (100,00 g)",
+        "61,00 g",
+        "6,10",
+        "0,61",
+        "16,39 g",
+        ""
+    ],
+    [
+        "Slovakia SUPER penne s príchuťou paprika & rajčina  (100,00 g)",
+        "64,00 g",
+        "6,40",
+        "0,64",
+        "15,62 g",
+        ""
+    ],
+    [
+        "Slovakia PomBär s príchuťou pizza (100,00 g)",
+        "58,00 g",
+        "5,80",
+        "0,58",
+        "17,24 g",
+        ""
+    ],
+    [
+        "Slovakia PomBär original (100,00 g)",
+        "59,00 g",
+        "5,90",
+        "0,59",
+        "16,95 g",
+        ""
+    ],
+    [
+        "Slovakia PomBär s príchuťou kečup (100,00 g)",
+        "59,00 g",
+        "5,90",
+        "0,59",
+        "16,95 g",
+        ""
+    ],
+    [
+        "Slovakia Biele lupienky solené (100,00 g)",
+        "61,00 g",
+        "6,10",
+        "0,61",
+        "16,39 g",
+        ""
+    ],
+    [
+        "Slovakia arašidy solené (100,00 g)",
+        "13,50 g",
+        "1,35",
+        "0,14",
+        "74,07 g",
+        ""
+    ],
+    [
+        "Slovakia Crispers wasabi (100,00 g)",
+        "42,00 g",
+        "4,20",
+        "0,42",
+        "23,81 g",
+        ""
+    ],
+    [
+        "Slovakia Crispers jarná cibuľka (100,00 g)",
+        "41,80 g",
+        "4,18",
+        "0,42",
+        "23,92 g",
+        ""
+    ],
+    [
+        "Slovakia Crispers paprika (100,00 g)",
+        "41,80 g",
+        "4,18",
+        "0,42",
+        "23,92 g",
+        ""
+    ],
+    [
+        "Slovakia Crispers syr (100,00 g)",
+        "42,60 g",
+        "4,26",
+        "0,43",
+        "23,47 g",
+        ""
+    ],
+    [
+        "Slovakia orechy GRANDE – študentský mix (100,00 g)",
+        "35,00 g",
+        "3,50",
+        "0,35",
+        "28,57 g",
+        ""
+    ]
+]

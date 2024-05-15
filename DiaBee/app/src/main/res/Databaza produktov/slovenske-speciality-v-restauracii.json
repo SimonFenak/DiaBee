@@ -1,0 +1,314 @@
+[
+    [
+        "Potravina / jedlo",
+        "Priemerné sacharidy",
+        "Množstvo SJ na jednotku hmotnosti",
+        "Množstvo SJ na 10 g výrobku",
+        "Množstvo g zodpovedajúce 1 SJ",
+        ""
+    ],
+    [
+        "Pečená šunka s vajcom (100,00 g)",
+        "0,00 g",
+        "0,00",
+        "0",
+        "0 g",
+        ""
+    ],
+    [
+        "Pečená klobása (100,00 g)",
+        "0,00 g",
+        "0,00",
+        "0",
+        "0 g",
+        ""
+    ],
+    [
+        "Sedliacka omeleta (100,00 g)",
+        "10,00 g",
+        "1,00",
+        "0,1",
+        "100 g",
+        ""
+    ],
+    [
+        "Hrianka drevorubača (šampiňóny, slanina, lečo) (100,00 g)",
+        "0,00 g",
+        "0,00",
+        "0",
+        "0 g",
+        ""
+    ],
+    [
+        "Údená krkovička, kapusta, knedľa (100 g, 150 g, 160 g) (160,00 g)",
+        "65,00 g",
+        "6,50",
+        "0,41",
+        "24,62 g",
+        ""
+    ],
+    [
+        "Zabíjačkový tanier (jaternica, klobása, údené mäso, bez prílohy) (170,00 g)",
+        "5,00 g",
+        "0,50",
+        "0,03",
+        "340 g",
+        ""
+    ],
+    [
+        "Jelení guláš (bez prílohy) (150,00 g)",
+        "5,00 g",
+        "0,50",
+        "0,03",
+        "300 g",
+        ""
+    ],
+    [
+        "Zemiakové knedle s údeným mäsom (300,00 g)",
+        "60,00 g",
+        "6,00",
+        "0,2",
+        "50 g",
+        ""
+    ],
+    [
+        "Plnená lokša s kačacou pečienkou (150,00 g)",
+        "20,00 g",
+        "2,00",
+        "0,13",
+        "75 g",
+        ""
+    ],
+    [
+        "Kačacia, husacia pečeň (bez prílohy) (150,00 g)",
+        "0,00 g",
+        "0,00",
+        "0",
+        "0 g",
+        ""
+    ],
+    [
+        "Kuracie pečienky (bez prílohy) (170,00 g)",
+        "10,00 g",
+        "1,00",
+        "0,06",
+        "170 g",
+        ""
+    ],
+    [
+        "Bryndzové pirohy so smotanou a slaninou (300,00 g)",
+        "30,00 g",
+        "3,00",
+        "0,1",
+        "100 g",
+        ""
+    ],
+    [
+        "Bryndzové halušky so slaninou (300,00 g)",
+        "40,00 g",
+        "4,00",
+        "0,13",
+        "75 g",
+        ""
+    ],
+    [
+        "Pstruh na rošte (bez prílohy) (200,00 g)",
+        "0,00 g",
+        "0,00",
+        "0",
+        "0 g",
+        ""
+    ],
+    [
+        "Grilované kuracie stehno bez kosti (bez prílohy) (100,00 g)",
+        "0,00 g",
+        "0,00",
+        "0",
+        "0 g",
+        ""
+    ],
+    [
+        "Živánska pochúťka (mäso, slanina, klobása, zemiaky) (150,00 g)",
+        "10,00 g",
+        "1,00",
+        "0,07",
+        "150 g",
+        ""
+    ],
+    [
+        "Zbojnícka ihla (mäso, slanina, klobása, bez prílohy) (200,00 g)",
+        "0,00 g",
+        "0,00",
+        "0",
+        "0 g",
+        ""
+    ],
+    [
+        "Prírodný bravčový rezeň na šampiňónoch (bez prílohy) (150,00 g)",
+        "5,00 g",
+        "0,50",
+        "0,03",
+        "300 g",
+        ""
+    ],
+    [
+        "Bravčové rezy v zemiakovej placke (150,00 g)",
+        "10,00 g",
+        "1,00",
+        "0,07",
+        "150 g",
+        ""
+    ],
+    [
+        "Pikantné bravčové mäso (bez prílohy) (150,00 g)",
+        "0,00 g",
+        "0,00",
+        "0",
+        "0 g",
+        ""
+    ],
+    [
+        "Čiernohorský bravčový rezeň (bez prílohy) (150,00 g)",
+        "20,00 g",
+        "2,00",
+        "0,13",
+        "75 g",
+        ""
+    ],
+    [
+        "Jelenie medailóniky s čučoriedkami (bez prílohy) (150,00 g)",
+        "10,00 g",
+        "1,00",
+        "0,07",
+        "150 g",
+        ""
+    ],
+    [
+        "Pikantná zmes z diviny (bez prílohy) (150,00 g)",
+        "0,00 g",
+        "0,00",
+        "0",
+        "0 g",
+        ""
+    ],
+    [
+        "Morčacie rezne v cestíčku (bez prílohy) (150,00 g)",
+        "15,00 g",
+        "1,50",
+        "0,1",
+        "100 g",
+        ""
+    ],
+    [
+        "Prírodné kuracie prsia (bez prílohy) (150,00 g)",
+        "5,00 g",
+        "0,50",
+        "0,03",
+        "300 g",
+        ""
+    ],
+    [
+        "Kuracie soté so zeleninou (bez prílohy) (150,00 g)",
+        "10,00 g",
+        "1,00",
+        "0,07",
+        "150 g",
+        ""
+    ],
+    [
+        "Plnený kurací rezeň (bez prílohy) (150,00 g)",
+        "15,00 g",
+        "1,50",
+        "0,1",
+        "100 g",
+        ""
+    ],
+    [
+        "Vyprážaný kurací rezeň (bez prílohy) (150,00 g)",
+        "15,00 g",
+        "1,50",
+        "0,1",
+        "100 g",
+        ""
+    ],
+    [
+        "Vyprážaný kapor so zemiakovým šalátom (150,00 g)",
+        "50,00 g",
+        "5,00",
+        "0,33",
+        "30 g",
+        ""
+    ],
+    [
+        "Rizoto s bravčovým mäsom a syrom (130,00 g)",
+        "30,00 g",
+        "3,00",
+        "0,23",
+        "43,33 g",
+        ""
+    ],
+    [
+        "Plnená paprika so zemiakmi (150,00 g)",
+        "50,00 g",
+        "5,00",
+        "0,33",
+        "30 g",
+        ""
+    ],
+    [
+        "Francúzske zemiaky (250,00 g)",
+        "50,00 g",
+        "5,00",
+        "0,2",
+        "50 g",
+        ""
+    ],
+    [
+        "Vyprážaný encián (bez prílohy) (120,00 g)",
+        "20,00 g",
+        "2,00",
+        "0,17",
+        "60 g",
+        ""
+    ],
+    [
+        "Vyprážaný syr (bez prílohy) (150,00 g)",
+        "20,00 g",
+        "2,00",
+        "0,13",
+        "75 g",
+        ""
+    ],
+    [
+        "Vyprážané šampiňóny (bez prílohy) (150,00 g)",
+        "25,00 g",
+        "2,50",
+        "0,17",
+        "60 g",
+        ""
+    ],
+    [
+        "Vyprážaný karfiol (bez prílohy) (160,00 g)",
+        "25,00 g",
+        "2,50",
+        "0,16",
+        "64 g",
+        ""
+    ],
+    [
+        "Zeleninové rizoto (370,00 g)",
+        "50,00 g",
+        "5,00",
+        "0,14",
+        "74 g",
+        ""
+    ],
+    [
+        "Granatiersky pochod (150,00 g)",
+        "30,00 g",
+        "3,00",
+        "0,2",
+        "50 g",
+        ""
+    ]
+]
