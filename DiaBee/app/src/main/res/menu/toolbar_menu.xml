@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"/>
+    <item
+        android:id="@+id/category"
+        android:title="Kategórie"/>
+    <item
+        android:id="@+id/prepocet"
+        android:title="Prepočet"/>
+    <item
+        android:id="@+id/oblubene"
+        android:title="Obľúbené"/>
+    <item
+        android:id="@+id/voda"
+        android:title="Pitný režim"/>
+
+
+
+
+</menu>
