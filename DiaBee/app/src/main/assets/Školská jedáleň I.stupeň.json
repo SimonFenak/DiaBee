@@ -1,0 +1,3138 @@
+[
+    [
+        "Potravina / jedlo",
+        "Priemerné sacharidy",
+        "Množstvo SJ na jednotku hmotnosti",
+        "Množstvo SJ na 10 g výrobku",
+        "Množstvo g zodpovedajúce 1 SJ",
+        ""
+    ],
+    [
+        "Biela káva (200,00 g)",
+        "22,80 g",
+        "2,28",
+        "0,11",
+        "87,72 g",
+        ""
+    ],
+    [
+        "Citronáda (200,00 g)",
+        "16,40 g",
+        "1,64",
+        "0,08",
+        "121,95 g",
+        ""
+    ],
+    [
+        "Čaj čierny s medom (200,00 g)",
+        "10,00 g",
+        "1,00",
+        "0,05",
+        "200 g",
+        ""
+    ],
+    [
+        "Čaj čierny so sirupom (200,00 g)",
+        "9,90 g",
+        "0,99",
+        "0,05",
+        "202,02 g",
+        ""
+    ],
+    [
+        "Čaj ovocný (200,00 g)",
+        "4,90 g",
+        "0,49",
+        "0,02",
+        "408,16 g",
+        ""
+    ],
+    [
+        "Čaj ovocný s medom (200,00 g)",
+        "9,80 g",
+        "0,98",
+        "0,05",
+        "204,08 g",
+        ""
+    ],
+    [
+        "Čaj ovocný so sirupom (200,00 g)",
+        "7,80 g",
+        "0,78",
+        "0,04",
+        "256,41 g",
+        ""
+    ],
+    [
+        "Čaj čierny s citrónom (200,00 g)",
+        "14,60 g",
+        "1,46",
+        "0,07",
+        "136,99 g",
+        ""
+    ],
+    [
+        "Jogurtové mlieko s probiotickou kultúrou (100,00 g)",
+        "12,00 g",
+        "1,20",
+        "0,12",
+        "83,33 g",
+        ""
+    ],
+    [
+        "Mlieko kakaové (200,00 g)",
+        "19,40 g",
+        "1,94",
+        "0,10",
+        "103,09 g",
+        ""
+    ],
+    [
+        "Mlieko banánové (200,00 g)",
+        "26,50 g",
+        "2,65",
+        "0,13",
+        "75,47 g",
+        ""
+    ],
+    [
+        "Mlieko karamelové (200,00 g)",
+        "21,00 g",
+        "2,10",
+        "0,10",
+        "95,24 g",
+        ""
+    ],
+    [
+        "Mlieko jahodové (200,00 g)",
+        "23,70 g",
+        "2,37",
+        "0,12",
+        "84,39 g",
+        ""
+    ],
+    [
+        "Mlieko s medom (200,00 g)",
+        "16,20 g",
+        "1,62",
+        "0,08",
+        "123,46 g",
+        ""
+    ],
+    [
+        "Mlieko vanilkové (200,00 g)",
+        "18,80 g",
+        "1,88",
+        "0,09",
+        "106,38 g",
+        ""
+    ],
+    [
+        "Ovocný nápoj s jablkami (200,00 g)",
+        "14,90 g",
+        "1,49",
+        "0,07",
+        "134,23 g",
+        ""
+    ],
+    [
+        "Voda s ovocným sirupom (200,00 g)",
+        "9,80 g",
+        "0,98",
+        "0,05",
+        "204,08 g",
+        ""
+    ],
+    [
+        "Voda s ovocným sirupom a citrónom (200,00 g)",
+        "10,20 g",
+        "1,02",
+        "0,05",
+        "196,08 g",
+        ""
+    ],
+    [
+        "Chlieb k polievke celozrnný (50,00 g)",
+        "24,40 g",
+        "2,44",
+        "0,49",
+        "20,49 g",
+        ""
+    ],
+    [
+        "Chlieb k prívarku celozrnný (60,00 g)",
+        "28,20 g",
+        "2,82",
+        "0,47",
+        "21,28 g",
+        ""
+    ],
+    [
+        "Cícer (uvarený do polievky) (10,00 g)",
+        "2,70 g",
+        "0,27",
+        "0,27",
+        "37,04 g",
+        ""
+    ],
+    [
+        "Pohánka (uvarená do polievky) (12,00 g)",
+        "3,30 g",
+        "0,33",
+        "0,28",
+        "36,36 g",
+        ""
+    ],
+    [
+        "Krupicové halušky (do polievky) (20,00 g)",
+        "7,30 g",
+        "0,73",
+        "0,36",
+        "27,40 g",
+        ""
+    ],
+    [
+        "Drožďové halušky (do polievky) (20,00 g)",
+        "7,30 g",
+        "0,73",
+        "0,36",
+        "27,40 g",
+        ""
+    ],
+    [
+        "Pečeňové halušky (do polievky) (20,00 g)",
+        "6,30 g",
+        "0,63",
+        "0,32",
+        "31,75 g",
+        ""
+    ],
+    [
+        "Lievanka (20,00 g)",
+        "4,50 g",
+        "0,45",
+        "0,22",
+        "44,44 g",
+        ""
+    ],
+    [
+        "Mäsové guľky (25,00 g)",
+        "7,20 g",
+        "0,72",
+        "0,29",
+        "34,72 g",
+        ""
+    ],
+    [
+        "Boršč s mäsom (200,00 g)",
+        "7,80 g",
+        "0,78",
+        "0,04",
+        "256,41 g",
+        ""
+    ],
+    [
+        "Polievka brokolicová krémová (200,00 g)",
+        "13,90 g",
+        "1,39",
+        "0,07",
+        "143,88 g",
+        ""
+    ],
+    [
+        "Polievka bryndzová (200,00 g)",
+        "15,50 g",
+        "1,55",
+        "0,08",
+        "129,03 g",
+        ""
+    ],
+    [
+        "Polievka cesnaková so zemiakmi (200,00 g)",
+        "8,40 g",
+        "0,84",
+        "0,04",
+        "238,10 g",
+        ""
+    ],
+    [
+        "Polievka cibuľová (200,00 g)",
+        "6,30 g",
+        "0,63",
+        "0,03",
+        "317,46 g",
+        ""
+    ],
+    [
+        "Polievka cibuľová so zemiakmi (200,00 g)",
+        "13,70 g",
+        "1,37",
+        "0,07",
+        "145,99 g",
+        ""
+    ],
+    [
+        "Polievka cícerová (200,00 g)",
+        "13,50 g",
+        "1,35",
+        "0,07",
+        "148,15 g",
+        ""
+    ],
+    [
+        "Polievka cícerová so zeleninou a zemiakmi (200,00 g)",
+        "15,30 g",
+        "1,53",
+        "0,08",
+        "130,72 g",
+        ""
+    ],
+    [
+        "Polievka fazuľová kyslá so zemiakmi (200,00 g)",
+        "20,80 g",
+        "2,08",
+        "0,10",
+        "96,15 g",
+        ""
+    ],
+    [
+        "Polievka fazuľová s mäsom a zeleninou (200,00 g)",
+        "12,90 g",
+        "1,29",
+        "0,06",
+        "155,04 g",
+        ""
+    ],
+    [
+        "Polievka gulášová (200,00 g)",
+        "9,30 g",
+        "0,93",
+        "0,05",
+        "215,05 g",
+        ""
+    ],
+    [
+        "Polievka hovädzia s mäsom, hráškom a ryžou (200,00 g)",
+        "5,10 g",
+        "0,51",
+        "0,03",
+        "392,16 g",
+        ""
+    ],
+    [
+        "Polievka hrachová, polievka hrachová so zeleninou (200,00 g)",
+        "11,10 g",
+        "1,11",
+        "0,06",
+        "180,18 g",
+        ""
+    ],
+    [
+        "Polievka hrachová so zeleninou a zemiakmi (200,00 g)",
+        "15,30 g",
+        "1,53",
+        "0,08",
+        "130,72 g",
+        ""
+    ],
+    [
+        "Polievka šampiňónová so zeleninou (200,00 g)",
+        "6,00 g",
+        "0,60",
+        "0,03",
+        "333,33 g",
+        ""
+    ],
+    [
+        "Polievka hŕstková (200,00 g)",
+        "18,40 g",
+        "1,84",
+        "0,09",
+        "108,70 g",
+        ""
+    ],
+    [
+        "Polievka hydinové ragú (200,00 g)",
+        "8,50 g",
+        "0,85",
+        "0,04",
+        "235,29 g",
+        ""
+    ],
+    [
+        "Polievka kalerábová (200,00 g)",
+        "3,40 g",
+        "0,34",
+        "0,02",
+        "588,24 g",
+        ""
+    ],
+    [
+        "Kapustnica s klobásou a hubami (200,00 g)",
+        "5,10 g",
+        "0,51",
+        "0,03",
+        "392,16 g",
+        ""
+    ],
+    [
+        "Polievka kapustová s rajčiakovým pretlakom (200,00 g)",
+        "8,30 g",
+        "0,83",
+        "0,04",
+        "240,96 g",
+        ""
+    ],
+    [
+        "Polievka karfiolová so syrovou lievankou (200,00 g)",
+        "7,50 g",
+        "0,75",
+        "0,04",
+        "266,67 g",
+        ""
+    ],
+    [
+        "Polievka karfiolová so zeleninou (200,00 g)",
+        "3,80 g",
+        "0,38",
+        "0,02",
+        "526,32 g",
+        ""
+    ],
+    [
+        "Polievka kelová (200,00 g)",
+        "4,10 g",
+        "0,41",
+        "0,02",
+        "487,80 g",
+        ""
+    ],
+    [
+        "Polievka kelová s mäsom a zemiakmi (200,00 g)",
+        "8,20 g",
+        "0,82",
+        "0,04",
+        "243,90 g",
+        ""
+    ],
+    [
+        "Polievka krupicová s vajcom (200,00 g)",
+        "5,60 g",
+        "0,56",
+        "0,03",
+        "357,14 g",
+        ""
+    ],
+    [
+        "Polievka kuracia (200,00 g)",
+        "2,00 g",
+        "0,20",
+        "0,01",
+        "1000 g",
+        ""
+    ],
+    [
+        "Polievka minestrone (200,00 g)",
+        "8,30 g",
+        "0,83",
+        "0,04",
+        "240,96 g",
+        ""
+    ],
+    [
+        "Polievka mrkvová mliečna so strúhaným cestom (200,00 g)",
+        "12,90 g",
+        "1,29",
+        "0,06",
+        "155,04 g",
+        ""
+    ],
+    [
+        "Polievka mrkvová so zemiakmi (200,00 g)",
+        "7,00 g",
+        "0,70",
+        "0,04",
+        "285,71 g",
+        ""
+    ],
+    [
+        "Polievka rajčiaková (200,00 g)",
+        "14,60 g",
+        "1,46",
+        "0,07",
+        "136,99 g",
+        ""
+    ],
+    [
+        "Polievka rajčiaková so syrom a ovsenými vločkami (200,00 g)",
+        "12,00 g",
+        "1,20",
+        "0,06",
+        "166,67 g",
+        ""
+    ],
+    [
+        "Polievka petržlenová s opekanou žemľou (200,00 g)",
+        "8,30 g",
+        "0,83",
+        "0,04",
+        "240,96 g",
+        ""
+    ],
+    [
+        "Polievka pórová so zemiakmi a syrom (200,00 g)",
+        "9,30 g",
+        "0,93",
+        "0,05",
+        "215,05 g",
+        ""
+    ],
+    [
+        "Polievka portugalská (200,00 g)",
+        "9,60 g",
+        "0,96",
+        "0,05",
+        "208,33 g",
+        ""
+    ],
+    [
+        "Polievka ragú (200,00 g)",
+        "6,40 g",
+        "0,64",
+        "0,03",
+        "312,5 g",
+        ""
+    ],
+    [
+        "Polievka rascová s vajcom (200,00 g)",
+        "3,30 g",
+        "0,33",
+        "0,02",
+        "606,06 g",
+        ""
+    ],
+    [
+        "Polievka rybacia so zeleninou a zemiakmi (200,00 g)",
+        "6,70 g",
+        "0,67",
+        "0,03",
+        "298,51 g",
+        ""
+    ],
+    [
+        "Polievka sedliacka (200,00 g)",
+        "7,90 g",
+        "0,79",
+        "0,04",
+        "253,16 g",
+        ""
+    ],
+    [
+        "Polievka slovenská šajtlava (200,00 g)",
+        "6,80 g",
+        "0,68",
+        "0,03",
+        "294,12 g",
+        ""
+    ],
+    [
+        "Polievka syrová s opekanou žemľou (200,00 g)",
+        "11,00 g",
+        "1,10",
+        "0,06",
+        "181,82 g",
+        ""
+    ],
+    [
+        "Polievka šošovicová mliečna (200,00 g)",
+        "20,30 g",
+        "2,03",
+        "0,10",
+        "98,52 g",
+        ""
+    ],
+    [
+        "Polievka šošovicová mliečna so zemiakmi (200,00 g)",
+        "24,80 g",
+        "2,48",
+        "0,12",
+        "80,65 g",
+        ""
+    ],
+    [
+        "Polievka šošovicová s mäsom a zeleninou (200,00 g)",
+        "16,20 g",
+        "1,62",
+        "0,08",
+        "123,46 g",
+        ""
+    ],
+    [
+        "Polievka šošovicová s mäsom a zemiakmi (200,00 g)",
+        "20,90 g",
+        "2,09",
+        "0,10",
+        "95,69 g",
+        ""
+    ],
+    [
+        "Polievka šošovicová so zeleninou (200,00 g)",
+        "13,20 g",
+        "1,32",
+        "0,07",
+        "151,52 g",
+        ""
+    ],
+    [
+        "Polievka šošovicová so zemiakmi (200,00 g)",
+        "13,50 g",
+        "1,35",
+        "0,07",
+        "148,15 g",
+        ""
+    ],
+    [
+        "Polievka špenátová s opekanou žemľou (200,00 g)",
+        "10,70 g",
+        "1,07",
+        "0,05",
+        "186,92 g",
+        ""
+    ],
+    [
+        "Polievka šutolica (200,00 g)",
+        "10,80 g",
+        "1,08",
+        "0,05",
+        "185,19 g",
+        ""
+    ],
+    [
+        "Polievka tekvicová (200,00 g)",
+        "9,00 g",
+        "0,90",
+        "0,04",
+        "222,22 g",
+        ""
+    ],
+    [
+        "Polievka z fazuľkových strukov (200,00 g)",
+        "10,80 g",
+        "1,08",
+        "0,05",
+        "185,19 g",
+        ""
+    ],
+    [
+        "Polievka z hlávkovej kapusty s mäsom a zemiakmi (200,00 g)",
+        "7,00 g",
+        "0,70",
+        "0,04",
+        "285,71 g",
+        ""
+    ],
+    [
+        "Polievka z hlávkovej kapusty so zemiakmi (200,00 g)",
+        "7,20 g",
+        "0,72",
+        "0,04",
+        "277,78 g",
+        ""
+    ],
+    [
+        "Polievka z kyslej kapusty s mäsom a zeleninou (200,00 g)",
+        "4,80 g",
+        "0,48",
+        "0,02",
+        "416,67 g",
+        ""
+    ],
+    [
+        "Polievka z kyslej kapusty s mäsom a zemiakmi (200,00 g)",
+        "7,40 g",
+        "0,74",
+        "0,04",
+        "270,27 g",
+        ""
+    ],
+    [
+        "Polievka z kyslej kapusty s mäsovými guľkami (200,00 g)",
+        "3,80 g",
+        "0,38",
+        "0,02",
+        "526,32 g",
+        ""
+    ],
+    [
+        "Polievka z kyslej kapusty so zemiakmi (200,00 g)",
+        "10,70 g",
+        "1,07",
+        "0,05",
+        "186,92 g",
+        ""
+    ],
+    [
+        "Polievka z miešaných strukovín mliečna (200,00 g)",
+        "22,90 g",
+        "2,29",
+        "0,11",
+        "87,34 g",
+        ""
+    ],
+    [
+        "Polievka z miešaných strukovín so zeleninou (200,00 g)",
+        "10,00 g",
+        "1,00",
+        "0,05",
+        "200 g",
+        ""
+    ],
+    [
+        "Polievka z mrazeného špenátu s vajcom (200,00 g)",
+        "8,60 g",
+        "0,86",
+        "0,04",
+        "232,56 g",
+        ""
+    ],
+    [
+        "Polievka zeleninová s droždím (200,00 g)",
+        "6,10 g",
+        "0,61",
+        "0,03",
+        "327,87 g",
+        ""
+    ],
+    [
+        "Polievka zeleninová s drožďovými haluškami (200,00 g)",
+        "6,90 g",
+        "0,69",
+        "0,03",
+        "289,86 g",
+        ""
+    ],
+    [
+        "Polievka zeleninová (200,00 g)",
+        "3,50 g",
+        "0,35",
+        "0,02",
+        "571,43 g",
+        ""
+    ],
+    [
+        "Polievka zeleninová s pečeňovými haluškami (200,00 g)",
+        "5,10 g",
+        "0,51",
+        "0,03",
+        "392,16 g",
+        ""
+    ],
+    [
+        "Polievka zemiaková (200,00 g)",
+        "11,80 g",
+        "1,18",
+        "0,06",
+        "169,49 g",
+        ""
+    ],
+    [
+        "Polievka zemiaková so sójou - mliečna (200,00 g)",
+        "16,00 g",
+        "1,60",
+        "0,08",
+        "125 g",
+        ""
+    ],
+    [
+        "Polievka zemiaková so zeleninou (200,00 g)",
+        "10,20 g",
+        "1,02",
+        "0,05",
+        "196,08 g",
+        ""
+    ],
+    [
+        "Polievka zemiaková s kôprom (200,00 g)",
+        "11,40 g",
+        "1,14",
+        "0,06",
+        "175,44 g",
+        ""
+    ],
+    [
+        "Polievka zo zeleného hrášku (200,00 g)",
+        "5,80 g",
+        "0,58",
+        "0,03",
+        "344,83 g",
+        ""
+    ],
+    [
+        "Polievka s mrazeným karfiolom so zeleninou (200,00 g)",
+        "3,80 g",
+        "0,38",
+        "0,02",
+        "526,32 g",
+        ""
+    ],
+    [
+        "Polievka hrachová krémová (200,00 g)",
+        "11,10 g",
+        "1,11",
+        "0,06",
+        "180,18 g",
+        ""
+    ],
+    [
+        "Frankfurtský závitok (112,00 g)",
+        "6,70 g",
+        "0,67",
+        "0,06",
+        "167,16 g",
+        ""
+    ],
+    [
+        "Hovädzí guláš (120,00 g)",
+        "4,40 g",
+        "0,44",
+        "0,04",
+        "272,73 g",
+        ""
+    ],
+    [
+        "Hovädzí guláš bratislavský (120,00 g)",
+        "8,30 g",
+        "0,83",
+        "0,07",
+        "144,58 g",
+        ""
+    ],
+    [
+        "Hovädzí guláš maďarský (120,00 g)",
+        "4,90 g",
+        "0,49",
+        "0,04",
+        "244,90 g",
+        ""
+    ],
+    [
+        "Hovädzí guláš slovenský (so zemiakmi) (160,00 g)",
+        "16,90 g",
+        "1,69",
+        "0,11",
+        "94,67 g",
+        ""
+    ],
+    [
+        "Hovädzí guláš so zeleninou (130,00 g)",
+        "16,90 g",
+        "1,69",
+        "0,13",
+        "76,92 g",
+        ""
+    ],
+    [
+        "Hovädzí plátok s lečom (120,00 g)",
+        "5,30 g",
+        "0,53",
+        "0,04",
+        "226,42 g",
+        ""
+    ],
+    [
+        "Hovädzí plátok s rajčiakovým pretlakom (120,00 g)",
+        "6,70 g",
+        "0,67",
+        "0,06",
+        "179,10 g",
+        ""
+    ],
+    [
+        "Hovädzí plátok na šampiňónoch (120,00 g)",
+        "3,50 g",
+        "0,35",
+        "0,03",
+        "342,86 g",
+        ""
+    ],
+    [
+        "Hovädzí závitok plnený zeleninou (141,00 g)",
+        "5,30 g",
+        "0,53",
+        "0,04",
+        "266,04 g",
+        ""
+    ],
+    [
+        "Hovädzia pečienka burgundská (120,00 g)",
+        "9,50 g",
+        "0,95",
+        "0,08",
+        "126,32 g",
+        ""
+    ],
+    [
+        "Hovädzia pečienka cigánska (118,00 g)",
+        "5,80 g",
+        "0,58",
+        "0,05",
+        "203,45 g",
+        ""
+    ],
+    [
+        "Hovädzia pečienka na smotane (130,00 g)",
+        "13,20 g",
+        "1,32",
+        "0,10",
+        "98,48 g",
+        ""
+    ],
+    [
+        "Hovädzia pečienka sviečková (mäso 40g, šťava 120g) (160,00 g)",
+        "11,30 g",
+        "1,13",
+        "0,07",
+        "141,59 g",
+        ""
+    ],
+    [
+        "Hovädzie dusené na hrášku (115,00 g)",
+        "5,80 g",
+        "0,58",
+        "0,05",
+        "198,28 g",
+        ""
+    ],
+    [
+        "Hovädzie mäso v hlávkovej kapuste (mäso 40g, šťava 130g) (170,00 g)",
+        "7,80 g",
+        "0,78",
+        "0,05",
+        "217,95 g",
+        ""
+    ],
+    [
+        "Hovädzie mäso dusené v keli (150,00 g)",
+        "6,80 g",
+        "0,68",
+        "0,05",
+        "220,59 g",
+        ""
+    ],
+    [
+        "Hovädzie mäso na poľovnícky spôsob (140,00 g)",
+        "7,00 g",
+        "0,70",
+        "0,05",
+        "200 g",
+        ""
+    ],
+    [
+        "Hovädzie mäso s kečupom (110,00 g)",
+        "6,60 g",
+        "0,66",
+        "0,06",
+        "166,67 g",
+        ""
+    ],
+    [
+        "Hovädzie mäso Stroganov (mäso 40g, šťava 80g) (120,00 g)",
+        "7,00 g",
+        "0,70",
+        "0,06",
+        "171,43 g",
+        ""
+    ],
+    [
+        "Hovädzie rezne zapekané so syrom (85,00 g)",
+        "9,90 g",
+        "0,99",
+        "0,12",
+        "85,86 g",
+        ""
+    ],
+    [
+        "Klopsy na turecký spôsob (120,00 g)",
+        "36,90 g",
+        "3,69",
+        "0,31",
+        "32,52 g",
+        ""
+    ],
+    [
+        "Kotlíkový guláš (so zemiakmi a lečom) (210,00 g)",
+        "21,60 g",
+        "2,16",
+        "0,10",
+        "97,22 g",
+        ""
+    ],
+    [
+        "Roštenka bratislavská (140,00 g)",
+        "7,80 g",
+        "0,78",
+        "0,06",
+        "179,49 g",
+        ""
+    ],
+    [
+        "Roštenka viedenská (100,00 g)",
+        "7,50 g",
+        "0,75",
+        "0,08",
+        "133,33 g",
+        ""
+    ],
+    [
+        "Španielsky vtáčik (128,00 g)",
+        "4,30 g",
+        "0,43",
+        "0,03",
+        "297,67 g",
+        ""
+    ],
+    [
+        "Tatárske azu (103,00 g)",
+        "5,40 g",
+        "0,54",
+        "0,05",
+        "190,74 g",
+        ""
+    ],
+    [
+        "Bratislavské rizoto (220,00 g)",
+        "48,30 g",
+        "4,83",
+        "0,22",
+        "45,55 g",
+        ""
+    ],
+    [
+        "Bravčová roláda na pražský spôsob (102,00 g)",
+        "4,10 g",
+        "0,41",
+        "0,04",
+        "248,78 g",
+        ""
+    ],
+    [
+        "Bravčové plátky na horčici (112,00 g)",
+        "3,60 g",
+        "0,36",
+        "0,03",
+        "311,11 g",
+        ""
+    ],
+    [
+        "Bravčové rezne prekladané (83,00 g)",
+        "6,40 g",
+        "0,64",
+        "0,08",
+        "129,69 g",
+        ""
+    ],
+    [
+        "Bravčové stehno na smotane (152,00 g)",
+        "8,90 g",
+        "0,89",
+        "0,06",
+        "170,79 g",
+        ""
+    ],
+    [
+        "Bravčové stehno bratislavské (172,00 g)",
+        "9,10 g",
+        "0,91",
+        "0,05",
+        "189,01 g",
+        ""
+    ],
+    [
+        "Bravčové stehno debrecínske (102,00 g)",
+        "4,20 g",
+        "0,42",
+        "0,04",
+        "242,86 g",
+        ""
+    ],
+    [
+        "Bravčové stehno na hrášku (112,00 g)",
+        "6,50 g",
+        "0,65",
+        "0,06",
+        "172,31 g",
+        ""
+    ],
+    [
+        "Bravčové stehno na zelenine (142,00 g)",
+        "5,10 g",
+        "0,51",
+        "0,04",
+        "278,43 g",
+        ""
+    ],
+    [
+        "Bravčové stehno pečené s hlávkovou kapustou (132,00 g)",
+        "10,90 g",
+        "1,09",
+        "0,08",
+        "121,10 g",
+        ""
+    ],
+    [
+        "Bravčový guláš (132,00 g)",
+        "5,60 g",
+        "0,56",
+        "0,04",
+        "235,71 g",
+        ""
+    ],
+    [
+        "Bravčový guláš segedínsky (172,00 g)",
+        "8,40 g",
+        "0,84",
+        "0,05",
+        "204,76 g",
+        ""
+    ],
+    [
+        "Bravčový perkelt (142,00 g)",
+        "7,00 g",
+        "0,70",
+        "0,05",
+        "202,86 g",
+        ""
+    ],
+    [
+        "Bravčový rezeň belehradský (s lečom a zemiakmi) (182,00 g)",
+        "40,70 g",
+        "4,07",
+        "0,22",
+        "44,72 g",
+        ""
+    ],
+    [
+        "Bravčový rezeň v cestíčku (90,00 g)",
+        "12,30 g",
+        "1,23",
+        "0,14",
+        "73,17 g",
+        ""
+    ],
+    [
+        "Bravčový rezeň vyprážaný (90,00 g)",
+        "21,80 g",
+        "2,18",
+        "0,24",
+        "41,28 g",
+        ""
+    ],
+    [
+        "Bravčový závitok prírodný (116,00 g)",
+        "5,00 g",
+        "0,50",
+        "0,04",
+        "232 g",
+        ""
+    ],
+    [
+        "Horehronský rezeň (v zemiakovom cestíčku) (105,00 g)",
+        "19,80 g",
+        "1,98",
+        "0,19",
+        "53,03 g",
+        ""
+    ],
+    [
+        "Moravský bravčový vrabec (92,00 g)",
+        "3,50 g",
+        "0,35",
+        "0,04",
+        "262,86 g",
+        ""
+    ],
+    [
+        "Tatranská zmes (127,00 g)",
+        "7,50 g",
+        "0,75",
+        "0,06",
+        "169,33 g",
+        ""
+    ],
+    [
+        "Važecká pochúťka (placka 150g, mäso 42g, šťava 40g) (232,00 g)",
+        "57,40 g",
+        "5,74",
+        "0,25",
+        "40,42 g",
+        ""
+    ],
+    [
+        "Živánska pečienka na pekáči (82,00 g)",
+        "87,20 g",
+        "8,72",
+        "1,06",
+        "9,40 g",
+        ""
+    ],
+    [
+        "Hydinové guľky v rajčiakovej omáčke (240,00 g)",
+        "33,40 g",
+        "3,34",
+        "0,14",
+        "71,86 g",
+        ""
+    ],
+    [
+        "Hydinový karbonátok  (85,00 g)",
+        "19,30 g",
+        "1,93",
+        "0,23",
+        "44,04 g",
+        ""
+    ],
+    [
+        "Kurací paprikáš (42g mäso, 100 g šťava) (142,00 g)",
+        "4,90 g",
+        "0,49",
+        "0,03",
+        "289,80 g",
+        ""
+    ],
+    [
+        "Kurací rezeň na šampiňónoch (112,00 g)",
+        "4,20 g",
+        "0,42",
+        "0,04",
+        "266,67 g",
+        ""
+    ],
+    [
+        "Kurací rezeň plnený (prírodný) (107,00 g)",
+        "4,10 g",
+        "0,41",
+        "0,04",
+        "260,98 g",
+        ""
+    ],
+    [
+        "Kuracie mäso po čínsky (102,00 g)",
+        "4,30 g",
+        "0,43",
+        "0,04",
+        "237,21 g",
+        ""
+    ],
+    [
+        "Kuracie stehno poľovnícke (140,00 g)",
+        "6,20 g",
+        "0,62",
+        "0,04",
+        "225,81 g",
+        ""
+    ],
+    [
+        "Kuracie prsia na hrášku (132,00 g)",
+        "6,30 g",
+        "0,63",
+        "0,05",
+        "209,52 g",
+        ""
+    ],
+    [
+        "Kuracie prsia na kukurici (102,00 g)",
+        "17,40 g",
+        "1,74",
+        "0,17",
+        "58,62 g",
+        ""
+    ],
+    [
+        "Kuracie prsia na smotane (mäso 42g, omáčka 100g) (142,00 g)",
+        "9,40 g",
+        "0,94",
+        "0,07",
+        "151,06 g",
+        ""
+    ],
+    [
+        "Kuracie prsia na zelenine (142,00 g)",
+        "6,20 g",
+        "0,62",
+        "0,04",
+        "229,03 g",
+        ""
+    ],
+    [
+        "Kuracie prsia plnené (prírodné) (115,00 g)",
+        "2,90 g",
+        "0,29",
+        "0,03",
+        "396,55 g",
+        ""
+    ],
+    [
+        "Kuracie prsia s ananásom (112,00 g)",
+        "6,70 g",
+        "0,67",
+        "0,06",
+        "167,16 g",
+        ""
+    ],
+    [
+        "Kuracie prsia s broskyňami (112,00 g)",
+        "12,30 g",
+        "1,23",
+        "0,11",
+        "91,06 g",
+        ""
+    ],
+    [
+        "Kuracie prsia vyprážané (85,00 g)",
+        "22,20 g",
+        "2,22",
+        "0,26",
+        "38,29 g",
+        ""
+    ],
+    [
+        "Kuracie prsia zapekané so syrom a broskyňou (102,00 g)",
+        "6,30 g",
+        "0,63",
+        "0,06",
+        "161,90 g",
+        ""
+    ],
+    [
+        "Kuracie prsia na srbský spôsob (132,00 g)",
+        "1,90 g",
+        "0,19",
+        "0,01",
+        "694,74 g",
+        ""
+    ],
+    [
+        "Kuracie stehná na kyslej kapuste (195,00 g)",
+        "4,40 g",
+        "0,44",
+        "0,02",
+        "443,18 g",
+        ""
+    ],
+    [
+        "Kuracie stehná na spôsob sviečkovej (mäsp 42g, šťava 120g) (162,00 g)",
+        "9,60 g",
+        "0,96",
+        "0,06",
+        "168,75 g",
+        ""
+    ],
+    [
+        "Kurča pečené s plnkou (mäso s plnkou 135g, šťava 30g) (165,00 g)",
+        "20,70 g",
+        "2,07",
+        "0,13",
+        "79,71 g",
+        ""
+    ],
+    [
+        "Morčací paprikáš (142,00 g)",
+        "5,40 g",
+        "0,54",
+        "0,04",
+        "262,96 g",
+        ""
+    ],
+    [
+        "Morčací rezeň prírodný (102,00 g)",
+        "3,80 g",
+        "0,38",
+        "0,04",
+        "268,42 g",
+        ""
+    ],
+    [
+        "Morčacie prsia na smotane (142,00 g)",
+        "9,30 g",
+        "0,93",
+        "0,07",
+        "152,69 g",
+        ""
+    ],
+    [
+        "Morčacie prsia poľovnícke (132,00 g)",
+        "5,50 g",
+        "0,55",
+        "0,04",
+        "240 g",
+        ""
+    ],
+    [
+        "Morčacie prsia zapekané so syrom (72,00 g)",
+        "2,40 g",
+        "0,24",
+        "0,03",
+        "300 g",
+        ""
+    ],
+    [
+        "Morčacie prsia vyprážané (85,00 g)",
+        "22,00 g",
+        "2,20",
+        "0,26",
+        "38,64 g",
+        ""
+    ],
+    [
+        "Morčacie prsia vyprážané v cestíčku (95,00 g)",
+        "11,40 g",
+        "1,14",
+        "0,12",
+        "83,33 g",
+        ""
+    ],
+    [
+        "Plnená kapusta s kuracím mäsom (170,00 g)",
+        "22,90 g",
+        "2,29",
+        "0,13",
+        "74,24 g",
+        ""
+    ],
+    [
+        "Rizoto z hydinového mäsa so zeleninou (260,00 g)",
+        "56,60 g",
+        "5,66",
+        "0,22",
+        "45,94 g",
+        ""
+    ],
+    [
+        "Sotté z kuracích pŕs (102,00 g)",
+        "4,30 g",
+        "0,43",
+        "0,04",
+        "237,21 g",
+        ""
+    ],
+    [
+        "Kuracie stehná pečené s plnkou (mäso s plnkou 160g, šťava 40g) (200,00 g)",
+        "20,70 g",
+        "2,07",
+        "0,10",
+        "96,62 g",
+        ""
+    ],
+    [
+        "Kuracie prsia na francúzsky spôsob (so zemiakmi) (250,00 g)",
+        "25,00 g",
+        "2,50",
+        "0,1",
+        "100 g",
+        ""
+    ],
+    [
+        "Rybie krokety s citrónovou omáčkou (mäso 85g, šťava 80g) (165,00 g)",
+        "29,10 g",
+        "2,91",
+        "0,18",
+        "56,70 g",
+        ""
+    ],
+    [
+        "Karbonátok z rybieho filé pečený (90,00 g)",
+        "12,80 g",
+        "1,28",
+        "0,14",
+        "70,31 g",
+        ""
+    ],
+    [
+        "Karbonátok z rybieho filé vyprážaný (90,00 g)",
+        "22,70 g",
+        "2,27",
+        "0,25",
+        "39,65 g",
+        ""
+    ],
+    [
+        "Nákyp z rybieho filé so syrom (80,00 g)",
+        "7,50 g",
+        "0,75",
+        "0,09",
+        "106,67 g",
+        ""
+    ],
+    [
+        "Pangasius s brokolicou a syrovou omáčkou (156,00 g)",
+        "13,70 g",
+        "1,37",
+        "0,09",
+        "113,87 g",
+        ""
+    ],
+    [
+        "Pečený pangasius so sezamom (65,00 g)",
+        "13,70 g",
+        "1,37",
+        "0,21",
+        "47,45 g",
+        ""
+    ],
+    [
+        "Rybie filé na labužnícky spôsob (so zemiakmi) (240,00 g)",
+        "55,60 g",
+        "5,56",
+        "0,23",
+        "43,17 g",
+        ""
+    ],
+    [
+        "Rybie filé na rajčiakoch so smotanou (138,00 g)",
+        "5,70 g",
+        "0,57",
+        "0,04",
+        "242,11 g",
+        ""
+    ],
+    [
+        "Rybie filé na srbský spôsob (103,00 g)",
+        "5,10 g",
+        "0,51",
+        "0,05",
+        "201,96 g",
+        ""
+    ],
+    [
+        "Rybie filé na vidiecky spôsob (103,00 g)",
+        "6,80 g",
+        "0,68",
+        "0,07",
+        "151,47 g",
+        ""
+    ],
+    [
+        "Rybie filé vyprážané (90,00 g)",
+        "22,50 g",
+        "2,25",
+        "0,25",
+        "40 g",
+        ""
+    ],
+    [
+        "Rybie filé vyprážané v cestíčku (105,00 g)",
+        "13,80 g",
+        "1,38",
+        "0,13",
+        "76,09 g",
+        ""
+    ],
+    [
+        "Rybie filé zapečené so syrom a jablkami (108,00 g)",
+        "5,20 g",
+        "0,52",
+        "0,05",
+        "207,69 g",
+        ""
+    ],
+    [
+        "Bravčová pečeň na cibuli (103,00 g)",
+        "4,70 g",
+        "0,47",
+        "0,05",
+        "219,15 g",
+        ""
+    ],
+    [
+        "Bravčová pečeň na rajčiakoch a paprike (118,00 g)",
+        "6,60 g",
+        "0,66",
+        "0,06",
+        "178,79 g",
+        ""
+    ],
+    [
+        "Bravčová pečeň na zelenine (128,00 g)",
+        "6,30 g",
+        "0,63",
+        "0,05",
+        "203,17 g",
+        ""
+    ],
+    [
+        "Bravčová pečeň vyprážaná (80,00 g)",
+        "20,10 g",
+        "2,01",
+        "0,25",
+        "39,80 g",
+        ""
+    ],
+    [
+        "Kuracia pečeň na cibuli (106,00 g)",
+        "4,30 g",
+        "0,43",
+        "0,04",
+        "246,51 g",
+        ""
+    ],
+    [
+        "Kuracia pečeň s lečom (114,00 g)",
+        "5,80 g",
+        "0,58",
+        "0,05",
+        "196,55 g",
+        ""
+    ],
+    [
+        "Kuracia pečeň vyprážaná (80,00 g)",
+        "20,10 g",
+        "2,01",
+        "0,25",
+        "39,80 g",
+        ""
+    ],
+    [
+        "Bravčovinky (65,00 g)",
+        "8,90 g",
+        "0,89",
+        "0,14",
+        "73,03 g",
+        ""
+    ],
+    [
+        "Biftek ruský (150,00 g)",
+        "17,40 g",
+        "1,74",
+        "0,12",
+        "86,21 g",
+        ""
+    ],
+    [
+        "Bitky po kozácky (70,00 g)",
+        "8,90 g",
+        "0,89",
+        "0,13",
+        "78,65 g",
+        ""
+    ],
+    [
+        "Cestovina zapečená s bravčovým mäsom a zeleninou (220,00 g)",
+        "54,70 g",
+        "5,47",
+        "0,25",
+        "40,22 g",
+        ""
+    ],
+    [
+        "Cestovina zapečená so šunkou a zeleninou (250,00 g)",
+        "52,00 g",
+        "5,20",
+        "0,21",
+        "48,08 g",
+        ""
+    ],
+    [
+        "Cestovina zapekaná so šunkou (200,00 g)",
+        "53,40 g",
+        "5,34",
+        "0,27",
+        "37,45 g",
+        ""
+    ],
+    [
+        "Čevabčiči (55,00 g)",
+        "7,20 g",
+        "0,72",
+        "0,13",
+        "76,39 g",
+        ""
+    ],
+    [
+        "Čufty na dalmátsky spôsob (175,00 g)",
+        "19,80 g",
+        "1,98",
+        "0,11",
+        "88,38 g",
+        ""
+    ],
+    [
+        "Francúzske zemiaky (250,00 g)",
+        "50,80 g",
+        "5,08",
+        "0,20",
+        "49,21 g",
+        ""
+    ],
+    [
+        "Hašé z hovädzieho mäsa (70,00 g)",
+        "5,50 g",
+        "0,55",
+        "0,08",
+        "127,27 g",
+        ""
+    ],
+    [
+        "Hovädzie karbonátky na smotane (140,00 g)",
+        "12,70 g",
+        "1,27",
+        "0,09",
+        "110,24 g",
+        ""
+    ],
+    [
+        "Káhirské špagety (240,00 g)",
+        "49,30 g",
+        "4,93",
+        "0,21",
+        "48,68 g",
+        ""
+    ],
+    [
+        "Kapusta s mäsovými guľkami (190,00 g)",
+        "20,30 g",
+        "2,03",
+        "0,11",
+        "93,60 g",
+        ""
+    ],
+    [
+        "Kapusta bulharská (140,00 g)",
+        "9,00 g",
+        "0,90",
+        "0,06",
+        "155,56 g",
+        ""
+    ],
+    [
+        "Kapusta plnená mäsom a ryžou (170,00 g)",
+        "25,20 g",
+        "2,52",
+        "0,15",
+        "67,46 g",
+        ""
+    ],
+    [
+        "Kapusta zapekaná (200,00 g)",
+        "39,70 g",
+        "3,97",
+        "0,20",
+        "50,38 g",
+        ""
+    ],
+    [
+        "Karbonátok pečený (80,00 g)",
+        "17,80 g",
+        "1,78",
+        "0,22",
+        "44,94 g",
+        ""
+    ],
+    [
+        "Karbonátok s ovsenými vločkami (80,00 g)",
+        "14,60 g",
+        "1,46",
+        "0,18",
+        "54,79 g",
+        ""
+    ],
+    [
+        "Karbonátok so syrom (90,00 g)",
+        "12,00 g",
+        "1,20",
+        "0,13",
+        "75 g",
+        ""
+    ],
+    [
+        "Karbonátok vyprážaný (75,00 g)",
+        "19,20 g",
+        "1,92",
+        "0,26",
+        "39,06 g",
+        ""
+    ],
+    [
+        "Karfiol zapekaný s mletým mäsom (130,00 g)",
+        "8,00 g",
+        "0,80",
+        "0,06",
+        "162,5 g",
+        ""
+    ],
+    [
+        "Kel plnený mäsom a cestovinou (150,00 g)",
+        "18,40 g",
+        "1,84",
+        "0,12",
+        "81,52 g",
+        ""
+    ],
+    [
+        "Kel plnený mäsom a ryžou (160,00 g)",
+        "17,50 g",
+        "1,75",
+        "0,11",
+        "91,43 g",
+        ""
+    ],
+    [
+        "Kel prekladaný (210,00 g)",
+        "36,50 g",
+        "3,65",
+        "0,17",
+        "57,53 g",
+        ""
+    ],
+    [
+        "Kelový karbonátok (75,00 g)",
+        "23,70 g",
+        "2,37",
+        "0,32",
+        "31,65 g",
+        ""
+    ],
+    [
+        "Klopsy na smotane (115,00 g)",
+        "8,70 g",
+        "0,87",
+        "0,08",
+        "132,18 g",
+        ""
+    ],
+    [
+        "Koložvárska kapusta (150,00 g)",
+        "16,40 g",
+        "1,64",
+        "0,11",
+        "91,46 g",
+        ""
+    ],
+    [
+        "Lečo s vajcom (150,00 g)",
+        "6,40 g",
+        "0,64",
+        "0,04",
+        "234,38 g",
+        ""
+    ],
+    [
+        "Mäsové guľky v kyslej kapuste (mäsp 60g, kapusta 125g) (185,00 g)",
+        "17,10 g",
+        "1,71",
+        "0,09",
+        "108,19 g",
+        ""
+    ],
+    [
+        "Mäsové guľky na segedínsky spôsob (240,00 g)",
+        "17,10 g",
+        "1,71",
+        "0,07",
+        "140,35 g",
+        ""
+    ],
+    [
+        "Mäsové guľky zapekané so zemiakmi a lečom (160,00 g)",
+        "26,80 g",
+        "2,68",
+        "0,17",
+        "59,70 g",
+        ""
+    ],
+    [
+        "Mäsové guľky v rajčiakovej omáčke (205,00 g)",
+        "29,20 g",
+        "2,92",
+        "0,14",
+        "70,21 g",
+        ""
+    ],
+    [
+        "Mäsové krokety (70,00 g)",
+        "15,60 g",
+        "1,56",
+        "0,22",
+        "44,87 g",
+        ""
+    ],
+    [
+        "Mäsové placky zapekané (80,00 g)",
+        "17,60 g",
+        "1,76",
+        "0,22",
+        "45,45 g",
+        ""
+    ],
+    [
+        "Mäsovo-zeleninový nákyp (105,00 g)",
+        "11,80 g",
+        "1,18",
+        "0,11",
+        "88,98 g",
+        ""
+    ],
+    [
+        "Mäsový nákyp (80,00 g)",
+        "12,50 g",
+        "1,25",
+        "0,16",
+        "64 g",
+        ""
+    ],
+    [
+        "Mletý rezeň so syrom (90,00 g)",
+        "12,20 g",
+        "1,22",
+        "0,14",
+        "73,77 g",
+        ""
+    ],
+    [
+        "Pasta sciutta (220,00 g)",
+        "51,30 g",
+        "5,13",
+        "0,23",
+        "42,88 g",
+        ""
+    ],
+    [
+        "Plavnická roláda (90,00 g)",
+        "12,70 g",
+        "1,27",
+        "0,14",
+        "70,87 g",
+        ""
+    ],
+    [
+        "Plnená paprika s rajčiakovou omáčkou (210,00 g)",
+        "28,90 g",
+        "2,89",
+        "0,14",
+        "72,66 g",
+        ""
+    ],
+    [
+        "Plnený kaleráb (210,00 g)",
+        "13,40 g",
+        "1,34",
+        "0,06",
+        "156,72 g",
+        ""
+    ],
+    [
+        "Plnený kapustový list (155,00 g)",
+        "24,30 g",
+        "2,43",
+        "0,16",
+        "63,79 g",
+        ""
+    ],
+    [
+        "Poľské zrazy (150,00 g)",
+        "13,80 g",
+        "1,38",
+        "0,09",
+        "108,70 g",
+        ""
+    ],
+    [
+        "Pór zapekaný s údeným mäsom a zemiakmi (250,00 g)",
+        "54,40 g",
+        "5,44",
+        "0,22",
+        "45,96 g",
+        ""
+    ],
+    [
+        "Rizoto s mäsom a zeleninou (240,00 g)",
+        "53,20 g",
+        "5,32",
+        "0,22",
+        "45,11 g",
+        ""
+    ],
+    [
+        "Sedliacka pochúťka (100,00 g)",
+        "4,90 g",
+        "0,49",
+        "0,05",
+        "204,08 g",
+        ""
+    ],
+    [
+        "Sekaná pečienka (70,00 g)",
+        "14,60 g",
+        "1,46",
+        "0,21",
+        "47,95 g",
+        ""
+    ],
+    [
+        "Sekaný rezeň v cestíčku (80,00 g)",
+        "13,10 g",
+        "1,31",
+        "0,16",
+        "61,07 g",
+        ""
+    ],
+    [
+        "Syrové tajomstvo v cestíčku (80,00 g)",
+        "10,20 g",
+        "1,02",
+        "0,13",
+        "78,43 g",
+        ""
+    ],
+    [
+        "Šampiňónové fašírky s bravčovým mäsom (95,00 g)",
+        "15,00 g",
+        "1,50",
+        "0,16",
+        "63,33 g",
+        ""
+    ],
+    [
+        "Šampiňónové fašírky s kuracím mäsom (90,00 g)",
+        "21,50 g",
+        "2,15",
+        "0,24",
+        "41,86 g",
+        ""
+    ],
+    [
+        "Špagety po bolonsky (240,00 g)",
+        "64,30 g",
+        "6,43",
+        "0,27",
+        "37,33 g",
+        ""
+    ],
+    [
+        "Špagety s mäsom a syrom (232,00 g)",
+        "51,50 g",
+        "5,15",
+        "0,22",
+        "45,05 g",
+        ""
+    ],
+    [
+        "Štefanská sekaná pečienka (85,00 g)",
+        "15,50 g",
+        "1,55",
+        "0,18",
+        "54,84 g",
+        ""
+    ],
+    [
+        "Švédske pagáčiky s jogurtovou omáčkou (130,00 g)",
+        "13,50 g",
+        "1,35",
+        "0,10",
+        "96,30 g",
+        ""
+    ],
+    [
+        "Tekvicový nákyp (150,00 g)",
+        "21,30 g",
+        "2,13",
+        "0,14",
+        "70,42 g",
+        ""
+    ],
+    [
+        "Zemiaková musaka (260,00 g)",
+        "52,20 g",
+        "5,22",
+        "0,20",
+        "49,81 g",
+        ""
+    ],
+    [
+        "Zemiakové knedle plnené mäsom (232,00 g)",
+        "69,50 g",
+        "6,95",
+        "0,30",
+        "33,38 g",
+        ""
+    ],
+    [
+        "Zemiakový guláš so špekačkami (232,00 g)",
+        "36,90 g",
+        "3,69",
+        "0,16",
+        "62,87 g",
+        ""
+    ],
+    [
+        "Zemiaky roľnícke (260,00 g)",
+        "42,20 g",
+        "4,22",
+        "0,16",
+        "61,61 g",
+        ""
+    ],
+    [
+        "Zemiaky štrasburské (240,00 g)",
+        "42,40 g",
+        "4,24",
+        "0,18",
+        "56,60 g",
+        ""
+    ],
+    [
+        "Zemiaky zapekané s mäsom a karfiolom (250,00 g)",
+        "46,10 g",
+        "4,61",
+        "0,18",
+        "54,23 g",
+        ""
+    ],
+    [
+        "Zemiaky zapekané s údeným mäsom a kyslou kapustou (250,00 g)",
+        "41,30 g",
+        "4,13",
+        "0,17",
+        "60,53 g",
+        ""
+    ],
+    [
+        "Zemiaky zapekané so syrom a klobásou (232,00 g)",
+        "38,50 g",
+        "3,85",
+        "0,17",
+        "60,26 g",
+        ""
+    ],
+    [
+        "Zemiaky zapekané so syrom a šunkou (250,00 g)",
+        "52,80 g",
+        "5,28",
+        "0,21",
+        "47,35 g",
+        ""
+    ],
+    [
+        "Zemiaky zapekané s mäsom a syrom (270,00 g)",
+        "45,10 g",
+        "4,51",
+        "0,17",
+        "59,87 g",
+        ""
+    ],
+    [
+        "Cestovina zapekaná so syrom a kečupom (220,00 g)",
+        "54,70 g",
+        "5,47",
+        "0,25",
+        "40,22 g",
+        ""
+    ],
+    [
+        "Fliačky s kyslou kapustou (232,00 g)",
+        "55,40 g",
+        "5,54",
+        "0,24",
+        "41,88 g",
+        ""
+    ],
+    [
+        "Granatiersky pochod (232,00 g)",
+        "61,30 g",
+        "6,13",
+        "0,26",
+        "37,85 g",
+        ""
+    ],
+    [
+        "Halušky s kyslou kapustou (232,00 g)",
+        "56,60 g",
+        "5,66",
+        "0,24",
+        "40,99 g",
+        ""
+    ],
+    [
+        "Halušky so syrom a smotanou (210,00 g)",
+        "54,00 g",
+        "5,40",
+        "0,26",
+        "38,89 g",
+        ""
+    ],
+    [
+        "Karbonátky z kyslej kapusty so syrom (95,00 g)",
+        "20,80 g",
+        "2,08",
+        "0,22",
+        "45,67 g",
+        ""
+    ],
+    [
+        "Karfiol vyprážaný (150,00 g)",
+        "33,10 g",
+        "3,31",
+        "0,22",
+        "45,32 g",
+        ""
+    ],
+    [
+        "Karfiol zapekaný (170,00 g)",
+        "14,60 g",
+        "1,46",
+        "0,09",
+        "116,44 g",
+        ""
+    ],
+    [
+        "Karfiol zaprávaný so syrom a smotanou (150,00 g)",
+        "10,40 g",
+        "1,04",
+        "0,07",
+        "144,23 g",
+        ""
+    ],
+    [
+        "Karfiolové placky (140,00 g)",
+        "10,50 g",
+        "1,05",
+        "0,08",
+        "133,33 g",
+        ""
+    ],
+    [
+        "Karfiolový nákyp (160,00 g)",
+        "14,40 g",
+        "1,44",
+        "0,09",
+        "111,11 g",
+        ""
+    ],
+    [
+        "Kelové karbonátky  (120,00 g)",
+        "22,70 g",
+        "2,27",
+        "0,19",
+        "52,86 g",
+        ""
+    ],
+    [
+        "Lasane s cuketou (bez mäsa) (220,00 g)",
+        "39,80 g",
+        "3,98",
+        "0,18",
+        "55,28 g",
+        ""
+    ],
+    [
+        "Nákyp zeleninový so syrom (155,00 g)",
+        "15,40 g",
+        "1,54",
+        "0,10",
+        "100,65 g",
+        ""
+    ],
+    [
+        "Pór zapekaný so syrom (120,00 g)",
+        "11,80 g",
+        "1,18",
+        "0,10",
+        "101,69 g",
+        ""
+    ],
+    [
+        "Rezance s tvarohom (slané) (232,00 g)",
+        "51,80 g",
+        "5,18",
+        "0,22",
+        "44,79 g",
+        ""
+    ],
+    [
+        "Rizoto so šampiňónmi (232,00 g)",
+        "58,90 g",
+        "5,89",
+        "0,25",
+        "39,39 g",
+        ""
+    ],
+    [
+        "Rizoto so zeleninou a syrom (232,00 g)",
+        "59,20 g",
+        "5,92",
+        "0,26",
+        "39,19 g",
+        ""
+    ],
+    [
+        "Rizoto zeleninové s tofu syrom (232,00 g)",
+        "60,40 g",
+        "6,04",
+        "0,26",
+        "38,41 g",
+        ""
+    ],
+    [
+        "Sójové kocky s hlivou (140,00 g)",
+        "9,80 g",
+        "0,98",
+        "0,07",
+        "142,86 g",
+        ""
+    ],
+    [
+        "Strapačky s bryndzou (240,00 g)",
+        "86,80 g",
+        "8,68",
+        "0,36",
+        "27,65 g",
+        ""
+    ],
+    [
+        "Strapačky s kyslou kapustou (240,00 g)",
+        "97,00 g",
+        "9,70",
+        "0,40",
+        "24,74 g",
+        ""
+    ],
+    [
+        "Strapačky s tvarohom (250,00 g)",
+        "83,90 g",
+        "8,39",
+        "0,34",
+        "29,80 g",
+        ""
+    ],
+    [
+        "Strapačky so syrokrémom (240,00 g)",
+        "69,40 g",
+        "6,94",
+        "0,29",
+        "34,58 g",
+        ""
+    ],
+    [
+        "Syrové karbonátky s jogurtovou omáčkou (karbonátok 75g, omáčka 40g) (115,00 g)",
+        "14,70 g",
+        "1,47",
+        "0,13",
+        "78,23 g",
+        ""
+    ],
+    [
+        "Syrové krokety (130,00 g)",
+        "31,30 g",
+        "3,13",
+        "0,24",
+        "41,53 g",
+        ""
+    ],
+    [
+        "Syrové placky (85,00 g)",
+        "16,90 g",
+        "1,69",
+        "0,20",
+        "50,30 g",
+        ""
+    ],
+    [
+        "Šampiňóny na smotane (170,00 g)",
+        "11,50 g",
+        "1,15",
+        "0,07",
+        "147,83 g",
+        ""
+    ],
+    [
+        "Špagety so syrom tofu (210,00 g)",
+        "56,60 g",
+        "5,66",
+        "0,27",
+        "37,10 g",
+        ""
+    ],
+    [
+        "Špagety so syrom a kečupom (250,00 g)",
+        "57,70 g",
+        "5,77",
+        "0,23",
+        "43,33 g",
+        ""
+    ],
+    [
+        "Špenát zapekaný so syrom (90,00 g)",
+        "9,10 g",
+        "0,91",
+        "0,10",
+        "98,90 g",
+        ""
+    ],
+    [
+        "Špenátové halušky so syrovou omáčkou (halušky 180g, omáčka 50g) (250,00 g)",
+        "60,70 g",
+        "6,07",
+        "0,24",
+        "41,19 g",
+        ""
+    ],
+    [
+        "Švajčiarsky tofu rezeň (110,00 g)",
+        "16,70 g",
+        "1,67",
+        "0,15",
+        "65,87 g",
+        ""
+    ],
+    [
+        "Tofu syr so šampiňónmi na ihle (110,00 g)",
+        "18,70 g",
+        "1,87",
+        "0,17",
+        "58,82 g",
+        ""
+    ],
+    [
+        "Tofu v cestíčku (90,00 g)",
+        "29,10 g",
+        "2,91",
+        "0,32",
+        "30,93 g",
+        ""
+    ],
+    [
+        "Vyprážaný syr (90,00 g)",
+        "19,50 g",
+        "1,95",
+        "0,22",
+        "46,15 g",
+        ""
+    ],
+    [
+        "Zapekaná brokolica so syrom (150,00 g)",
+        "12,50 g",
+        "1,25",
+        "0,08",
+        "120 g",
+        ""
+    ],
+    [
+        "Zapekaná fazuľka so syrom (130,00 g)",
+        "5,10 g",
+        "0,51",
+        "0,04",
+        "254,90 g",
+        ""
+    ],
+    [
+        "Zeleninové rizoto so strúhaným syrom (232,00 g)",
+        "55,00 g",
+        "5,50",
+        "0,24",
+        "42,18 g",
+        ""
+    ],
+    [
+        "Zelenina zaprávaná (140,00 g)",
+        "13,30 g",
+        "1,33",
+        "0,10",
+        "105,26 g",
+        ""
+    ],
+    [
+        "Zemiakové placky (220,00 g)",
+        "66,00 g",
+        "6,60",
+        "0,3",
+        "33,33 g",
+        ""
+    ],
+    [
+        "Zemiakové placky so zelerom (220,00 g)",
+        "47,50 g",
+        "4,75",
+        "0,22",
+        "46,32 g",
+        ""
+    ],
+    [
+        "Zemiaky zapekané so syrom a vajcom (290,00 g)",
+        "58,10 g",
+        "5,81",
+        "0,20",
+        "49,91 g",
+        ""
+    ],
+    [
+        "Kapustné fliačky (sladké) (250,00 g)",
+        "53,00 g",
+        "5,30",
+        "0,21",
+        "47,17 g",
+        ""
+    ],
+    [
+        "Osúch slaný (langoš) s cesnakom (160,00 g)",
+        "62,80 g",
+        "6,28",
+        "0,39",
+        "25,48 g",
+        ""
+    ],
+    [
+        "Osúch slaný (langoš) s jogurtom (160,00 g)",
+        "62,80 g",
+        "6,28",
+        "0,39",
+        "25,48 g",
+        ""
+    ],
+    [
+        "Osúch slaný (langoš) so syrom a kečupom (180,00 g)",
+        "66,40 g",
+        "6,64",
+        "0,37",
+        "27,11 g",
+        ""
+    ],
+    [
+        "Buchty na pare plnené lekvárom (190,00 g)",
+        "100,60 g",
+        "10,06",
+        "0,53",
+        "18,89 g",
+        ""
+    ],
+    [
+        "Buchty pečené plnené lekvárom (200,00 g)",
+        "109,50 g",
+        "10,95",
+        "0,55",
+        "18,26 g",
+        ""
+    ],
+    [
+        "Buchty pečené plnené makom (220,00 g)",
+        "101,20 g",
+        "10,12",
+        "0,46",
+        "21,74 g",
+        ""
+    ],
+    [
+        "Buchty pečené s čokoládovo-orieškovým krémom (200,00 g)",
+        "85,30 g",
+        "8,53",
+        "0,43",
+        "23,45 g",
+        ""
+    ],
+    [
+        "Buchty pečené plnené tvarohom (235,00 g)",
+        "115,00 g",
+        "11,50",
+        "0,49",
+        "20,43 g",
+        ""
+    ],
+    [
+        "Dukátové buchtičky s vanilkovým pudingom (buchtičky 130g, krém 130g) (260,00 g)",
+        "79,00 g",
+        "7,90",
+        "0,30",
+        "32,91 g",
+        ""
+    ],
+    [
+        "Dukátové buchtičky s vanilkovým krémom (buchtičky 130g, krém 130g) (260,00 g)",
+        "79,00 g",
+        "7,90",
+        "0,30",
+        "32,91 g",
+        ""
+    ],
+    [
+        "Knedle ovocné zo zemiakového cesta s tvarohom (280,00 g)",
+        "104,30 g",
+        "10,43",
+        "0,37",
+        "26,85 g",
+        ""
+    ],
+    [
+        "Kapustníky (200,00 g)",
+        "86,60 g",
+        "8,66",
+        "0,43",
+        "23,09 g",
+        ""
+    ],
+    [
+        "Knedličky ovocné z kysnutého cesta (200,00 g)",
+        "66,30 g",
+        "6,63",
+        "0,33",
+        "30,17 g",
+        ""
+    ],
+    [
+        "Knedličky ovocné zo zemiakového cesta (220,00 g)",
+        "83,50 g",
+        "8,35",
+        "0,38",
+        "26,35 g",
+        ""
+    ],
+    [
+        "Krupicová kaša (250,00 g)",
+        "45,30 g",
+        "4,53",
+        "0,18",
+        "55,19 g",
+        ""
+    ],
+    [
+        "Lievance s lekvárom, jogurtom a ovsenými vločkami (240,00 g)",
+        "84,20 g",
+        "8,42",
+        "0,35",
+        "28,50 g",
+        ""
+    ],
+    [
+        "Lievance s lekvárom  (220,00 g)",
+        "94,60 g",
+        "9,46",
+        "0,43",
+        "23,26 g",
+        ""
+    ],
+    [
+        "Lievance s lekvárom a tvarohom (260,00 g)",
+        "91,80 g",
+        "9,18",
+        "0,35",
+        "28,32 g",
+        ""
+    ],
+    [
+        "Moravské koláče (232,00 g)",
+        "120,10 g",
+        "12,01",
+        "0,52",
+        "19,32 g",
+        ""
+    ],
+    [
+        "Nákyp ryžový s kompótom (260,00 g)",
+        "92,60 g",
+        "9,26",
+        "0,36",
+        "28,08 g",
+        ""
+    ],
+    [
+        "Nákyp ryžový s tvarohom a jablkami (250,00 g)",
+        "80,30 g",
+        "8,03",
+        "0,32",
+        "31,13 g",
+        ""
+    ],
+    [
+        "Nákyp ryžový s tvarohom a kompótom (260,00 g)",
+        "91,70 g",
+        "9,17",
+        "0,35",
+        "28,35 g",
+        ""
+    ],
+    [
+        "Nákyp tvarohový s marhuľovou omáčkou (260,00 g)",
+        "63,80 g",
+        "6,38",
+        "0,25",
+        "40,75 g",
+        ""
+    ],
+    [
+        "Osie hniezda (170,00 g)",
+        "91,70 g",
+        "9,17",
+        "0,54",
+        "18,54 g",
+        ""
+    ],
+    [
+        "Palacinky s džemom (240,00 g)",
+        "98,10 g",
+        "9,81",
+        "0,41",
+        "24,46 g",
+        ""
+    ],
+    [
+        "Palacinky jablkové (220,00 g)",
+        "78,70 g",
+        "7,87",
+        "0,36",
+        "27,95 g",
+        ""
+    ],
+    [
+        "Palacinky s makom (250,00 g)",
+        "86,10 g",
+        "8,61",
+        "0,34",
+        "29,04 g",
+        ""
+    ],
+    [
+        "Palacinky s tvarohom (270,00 g)",
+        "82,50 g",
+        "8,25",
+        "0,31",
+        "32,73 g",
+        ""
+    ],
+    [
+        "Rezance domáce s tvarohom (260,00 g)",
+        "70,30 g",
+        "7,03",
+        "0,27",
+        "36,98 g",
+        ""
+    ],
+    [
+        "Šišky s džemom (220,00 g)",
+        "125,10 g",
+        "12,51",
+        "0,57",
+        "17,59 g",
+        ""
+    ],
+    [
+        "Šúľance s makom (šúľance 220g, posýpka 30g) (250,00 g)",
+        "104,50 g",
+        "10,45",
+        "0,42",
+        "23,92 g",
+        ""
+    ],
+    [
+        "Šúľance s orechami (šúľance 230g, posýpka 30g)  (260,00 g)",
+        "106,30 g",
+        "10,63",
+        "0,41",
+        "24,46 g",
+        ""
+    ],
+    [
+        "Šúľance s tvarohom (šúľance 230g, posýpka 60g) (290,00 g)",
+        "105,70 g",
+        "10,57",
+        "0,36",
+        "27,44 g",
+        ""
+    ],
+    [
+        "Tvarohové guľky so strúhankou (guľky 240 gramovg, džem 25g) (265,00 g)",
+        "74,10 g",
+        "7,41",
+        "0,28",
+        "35,76 g",
+        ""
+    ],
+    [
+        "Zapekané rezance s tvarohom (makom) a lekvárom (240,00 g)",
+        "84,80 g",
+        "8,48",
+        "0,35",
+        "28,30 g",
+        ""
+    ],
+    [
+        "Závin kysnutý s orechovou plnkou (232,00 g)",
+        "113,50 g",
+        "11,35",
+        "0,49",
+        "20,44 g",
+        ""
+    ],
+    [
+        "Závin kysnutý s makovou plnkou (200,00 g)",
+        "115,60 g",
+        "11,56",
+        "0,58",
+        "17,30 g",
+        ""
+    ],
+    [
+        "Závin kysnutý s tvarohovou plnkou (240,00 g)",
+        "107,40 g",
+        "10,74",
+        "0,45",
+        "22,35 g",
+        ""
+    ],
+    [
+        "Žemľovka s jablkami (210,00 g)",
+        "67,40 g",
+        "6,74",
+        "0,32",
+        "31,16 g",
+        ""
+    ],
+    [
+        "Žemľovka s jablkami a orechmi (232,00 g)",
+        "77,50 g",
+        "7,75",
+        "0,33",
+        "29,94 g",
+        ""
+    ],
+    [
+        "Žemľovka s tvarohom (250,00 g)",
+        "75,20 g",
+        "7,52",
+        "0,30",
+        "33,24 g",
+        ""
+    ],
+    [
+        "Žemľovka s tvarohom a jablkami (260,00 g)",
+        "81,70 g",
+        "8,17",
+        "0,31",
+        "31,82 g",
+        ""
+    ],
+    [
+        "Halušky (160,00 g)",
+        "60,30 g",
+        "6,03",
+        "0,38",
+        "26,53 g",
+        ""
+    ],
+    [
+        "Hranolky pečené v rúre (100,00 g)",
+        "42,80 g",
+        "4,28",
+        "0,43",
+        "23,36 g",
+        ""
+    ],
+    [
+        "Knedľa kysnutá (90,00 g)",
+        "57,70 g",
+        "5,77",
+        "0,64",
+        "15,60 g",
+        ""
+    ],
+    [
+        "Kuskus - cestovina (140,00 g)",
+        "35,00 g",
+        "3,50",
+        "0,25",
+        "40 g",
+        ""
+    ],
+    [
+        "Ryža dusená s hráškom (145,00 g)",
+        "49,80 g",
+        "4,98",
+        "0,34",
+        "29,12 g",
+        ""
+    ],
+    [
+        "Ryža dusená s kukuricou (140,00 g)",
+        "60,60 g",
+        "6,06",
+        "0,43",
+        "23,10 g",
+        ""
+    ],
+    [
+        "Ryža zeleninová (145,00 g)",
+        "47,10 g",
+        "4,71",
+        "0,32",
+        "30,79 g",
+        ""
+    ],
+    [
+        "Slovenská ryža (140,00 g)",
+        "44,50 g",
+        "4,45",
+        "0,32",
+        "31,46 g",
+        ""
+    ],
+    [
+        "Tarhoňa dusená (140,00 g)",
+        "48,80 g",
+        "4,88",
+        "0,35",
+        "28,69 g",
+        ""
+    ],
+    [
+        "Zemiakový šalát s uhorkami (I., II.) (200,00 g)",
+        "39,40 g",
+        "3,94",
+        "0,20",
+        "50,76 g",
+        ""
+    ],
+    [
+        "Zemiakový šalát so zeleninou (190,00 g)",
+        "38,60 g",
+        "3,86",
+        "0,20",
+        "49,22 g",
+        ""
+    ],
+    [
+        "Prívarok cuketový (160,00 g)",
+        "10,20 g",
+        "1,02",
+        "0,06",
+        "156,86 g",
+        ""
+    ],
+    [
+        "Prívarok fazuľkový so zemiakmi (170,00 g)",
+        "21,20 g",
+        "2,12",
+        "0,12",
+        "80,19 g",
+        ""
+    ],
+    [
+        "Prívarok fazuľový (180,00 g)",
+        "32,70 g",
+        "3,27",
+        "0,18",
+        "55,05 g",
+        ""
+    ],
+    [
+        "Prívarok fazuľový so zemiakmi (180,00 g)",
+        "34,10 g",
+        "3,41",
+        "0,19",
+        "52,79 g",
+        ""
+    ],
+    [
+        "Prívarok kalerábový (150,00 g)",
+        "16,60 g",
+        "1,66",
+        "0,11",
+        "90,36 g",
+        ""
+    ],
+    [
+        "Prívarok kapustový s rajčiakovým pretlakom a smotanou (150,00 g)",
+        "15,30 g",
+        "1,53",
+        "0,10",
+        "98,04 g",
+        ""
+    ],
+    [
+        "Prívarok kelový so zemiakmi (170,00 g)",
+        "18,80 g",
+        "1,88",
+        "0,11",
+        "90,43 g",
+        ""
+    ],
+    [
+        "Prívarok šošovicový (200,00 g)",
+        "31,50 g",
+        "3,15",
+        "0,16",
+        "63,49 g",
+        ""
+    ],
+    [
+        "Prívarok šošovicový so zemiakmi (180,00 g)",
+        "34,50 g",
+        "3,45",
+        "0,19",
+        "52,17 g",
+        ""
+    ],
+    [
+        "Prívarok špenátový (140,00 g)",
+        "10,50 g",
+        "1,05",
+        "0,08",
+        "133,33 g",
+        ""
+    ],
+    [
+        "Prívarok špenátový so smotanou (110,00 g)",
+        "9,50 g",
+        "0,95",
+        "0,09",
+        "115,79 g",
+        ""
+    ],
+    [
+        "Prívarok tekvicový (160,00 g)",
+        "13,40 g",
+        "1,34",
+        "0,08",
+        "119,40 g",
+        ""
+    ],
+    [
+        "Zemiaky na kyslo (220,00 g)",
+        "44,20 g",
+        "4,42",
+        "0,20",
+        "49,77 g",
+        ""
+    ],
+    [
+        "Fazuľa s rajčiakovým pretlakom (180,00 g)",
+        "36,50 g",
+        "3,65",
+        "0,20",
+        "49,32 g",
+        ""
+    ],
+    [
+        "Fazuľka dusená (110,00 g)",
+        "3,50 g",
+        "0,35",
+        "0,03",
+        "314,29 g",
+        ""
+    ],
+    [
+        "Hrachová kaša (180,00 g)",
+        "42,00 g",
+        "4,20",
+        "0,23",
+        "42,86 g",
+        ""
+    ],
+    [
+        "Hrachová kaša s krúpami (170,00 g)",
+        "43,10 g",
+        "4,31",
+        "0,25",
+        "39,44 g",
+        ""
+    ],
+    [
+        "Hrášok dusený s mrkvou (80,00 g)",
+        "8,20 g",
+        "0,82",
+        "0,10",
+        "97,56 g",
+        ""
+    ],
+    [
+        "Kapusta hlávková dusená (130,00 g)",
+        "11,40 g",
+        "1,14",
+        "0,09",
+        "114,04 g",
+        ""
+    ],
+    [
+        "Kapusta hlávková s rajčiakovým pretlakom (130,00 g)",
+        "14,30 g",
+        "1,43",
+        "0,11",
+        "90,91 g",
+        ""
+    ],
+    [
+        "Kapusta kyslá dusená (130,00 g)",
+        "14,30 g",
+        "1,43",
+        "0,11",
+        "90,91 g",
+        ""
+    ],
+    [
+        "Omáčka chrenová (130,00 g)",
+        "17,10 g",
+        "1,71",
+        "0,13",
+        "76,02 g",
+        ""
+    ],
+    [
+        "Omáčka rajčiaková (120,00 g)",
+        "17,60 g",
+        "1,76",
+        "0,15",
+        "68,18 g",
+        ""
+    ],
+    [
+        "Omáčka kôprová (120,00 g)",
+        "12,80 g",
+        "1,28",
+        "0,11",
+        "93,75 g",
+        ""
+    ],
+    [
+        "Omáčka syrová (75,00 g)",
+        "4,30 g",
+        "0,43",
+        "0,06",
+        "174,42 g",
+        ""
+    ],
+    [
+        "Tatárska omáčka z jogurtu (55,00 g)",
+        "5,50 g",
+        "0,55",
+        "0,1",
+        "100 g",
+        ""
+    ],
+    [
+        "Zelenina miešaná na anglický spôsob (140,00 g)",
+        "9,80 g",
+        "0,98",
+        "0,07",
+        "142,86 g",
+        ""
+    ],
+    [
+        "Omáčka brokolicovo syrová (145,00 g)",
+        "14,20 g",
+        "1,42",
+        "0,10",
+        "102,11 g",
+        ""
+    ],
+    [
+        "Omáčka zo sušených húb (145,00 g)",
+        "6,50 g",
+        "0,65",
+        "0,04",
+        "223,08 g",
+        ""
+    ],
+    [
+        "Omáčka rajčiaková so smotanou (140,00 g)",
+        "23,00 g",
+        "2,30",
+        "0,16",
+        "60,87 g",
+        ""
+    ]
+]

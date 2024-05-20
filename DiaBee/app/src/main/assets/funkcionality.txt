@@ -1,0 +1,5 @@
+1. Zoznam
+2. Prepočet
+3. Pridanie do databazy
+4. Oblubene
+5. Upozornenie kazde 2 hodiny
