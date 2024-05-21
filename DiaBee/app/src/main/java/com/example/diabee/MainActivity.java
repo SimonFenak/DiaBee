@@ -4,10 +4,17 @@ import android.content.Intent;
 import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.GridLayout;
+import android.widget.Toast;
+
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 
@@ -26,6 +33,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         GridLayout gridLayout = findViewById(R.id.gridLayout);
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         try {
             JSONArray jsonArray = loadJSONFromAsset("kategorie.json");
@@ -83,5 +93,26 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, DetailActivity.class);
         intent.putExtra("category", category);
         startActivity(intent);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.toolbar_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        int id = item.getItemId();
+        if (id == R.id.category){
+            Toast.makeText(this, "kategorie", Toast.LENGTH_SHORT).show();
+        }
+        if (id == R.id.oblubene){
+            Toast.makeText(this, "oblubene", Toast.LENGTH_SHORT).show();
+        }
+        if (id == R.id.voda){
+            Toast.makeText(this, "voda", Toast.LENGTH_SHORT).show();
+        }
+        return true;
     }
 }

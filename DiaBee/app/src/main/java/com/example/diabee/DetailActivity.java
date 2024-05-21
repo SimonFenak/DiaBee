@@ -1,8 +1,15 @@
 package com.example.diabee;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
+
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import java.io.BufferedReader;
@@ -17,6 +24,9 @@ public class DetailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         String category = getIntent().getStringExtra("category");
 
@@ -63,5 +73,26 @@ public class DetailActivity extends AppCompatActivity {
             e.printStackTrace();
             return null;
         }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.toolbar_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        int id = item.getItemId();
+        if (id == R.id.category){
+            Toast.makeText(this, "kategorie", Toast.LENGTH_SHORT).show();
+        }
+        if (id == R.id.oblubene){
+            Toast.makeText(this, "oblubene", Toast.LENGTH_SHORT).show();
+        }
+        if (id == R.id.voda){
+            Toast.makeText(this, "voda", Toast.LENGTH_SHORT).show();
+        }
+        return true;
     }
 }
