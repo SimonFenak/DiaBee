@@ -12,9 +12,6 @@
         android:id="@+id/category"
         android:title="Kategórie"/>
     <item
-        android:id="@+id/prepocet"
-        android:title="Prepočet"/>
-    <item
         android:id="@+id/oblubene"
         android:title="Obľúbené"/>
     <item
