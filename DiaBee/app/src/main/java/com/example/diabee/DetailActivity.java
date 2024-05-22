@@ -1,12 +1,19 @@
 package com.example.diabee;
+import android.database.Cursor;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
+import android.widget.GridView;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
@@ -18,12 +25,14 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-public class DetailActivity extends AppCompatActivity {
-
+public class DetailActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
+    private ListView StuffGridView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
+        StuffGridView = (ListView) findViewById(R.id.listView);
+        StuffGridView.setOnItemClickListener(this);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -94,5 +103,45 @@ public class DetailActivity extends AppCompatActivity {
             Toast.makeText(this, "voda", Toast.LENGTH_SHORT).show();
         }
         return true;
+    }
+
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        String item = (String) parent.getItemAtPosition(position);
+        final View customLayout = getLayoutInflater().inflate(R.layout.dialog_box, null);
+
+        final TextView TitleTextView = (TextView)customLayout.findViewById(R.id.Nazov);
+        final TextView SjTextView = (TextView)customLayout.findViewById(R.id.sj_num);
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        String[] itemArray = item.split(" ");
+        String name = null;
+        if (itemArray[1].contains("(")){
+            name = itemArray[0];
+        }
+        else if (itemArray[2].contains("(")){
+            name = itemArray[0];
+            name+=" "+itemArray[1];
+        }
+        else if (itemArray[3].contains("(")){
+            name = itemArray[0];
+            name+=" "+itemArray[1]+" "+itemArray[2];
+        }
+        else if (itemArray[4].contains("(")){
+            name = itemArray[0];
+            name+=" "+itemArray[1]+" "+itemArray[2]+" "+itemArray[3];
+        }
+        else if (itemArray[5].contains("(")){
+            name = itemArray[0];
+            name+=" "+itemArray[1]+" "+itemArray[2]+" "+itemArray[3]+" "+itemArray[4];
+        }
+
+        String value = itemArray[itemArray.length-1];
+        SjTextView.setText(value);
+        TitleTextView.setText(name);
+        builder.setView(customLayout);
+
+        builder.setPositiveButton("OK", null);
+        builder.show();
     }
 }
