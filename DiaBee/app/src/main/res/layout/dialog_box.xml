@@ -73,7 +73,7 @@
             android:id="@+id/editHmotnost"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="8dp"
             android:background="@drawable/custom_edit"
             android:ems="8"
             android:inputType="number|numberDecimal"
@@ -129,6 +129,7 @@
             app:layout_constraintTop_toBottomOf="@+id/editSachJed">
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/close_button"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_marginEnd="10dp"
@@ -136,11 +137,12 @@
                 android:backgroundTint="@color/mine"
                 android:padding="6dp"
                 android:text="ZAVRIEŤ"
-                android:textStyle="bold"
                 android:textColor="@color/black"
-                android:textSize="15sp" />
+                android:textSize="15sp"
+                android:textStyle="bold" />
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/calc_Button"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_marginEnd="10dp"
@@ -148,11 +150,12 @@
                 android:backgroundTint="#00CC00"
                 android:padding="6dp"
                 android:text="PREPOČET"
-                android:textStyle="bold"
                 android:textColor="@color/black"
-                android:textSize="15sp" />
+                android:textSize="15sp"
+                android:textStyle="bold" />
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/delete_Button"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_marginEnd="10dp"
@@ -160,9 +163,9 @@
                 android:backgroundTint="@color/red"
                 android:padding="6dp"
                 android:text="VYMAŽ"
-                android:textStyle="bold"
                 android:textColor="@color/white"
-                android:textSize="15sp" />
+                android:textSize="15sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
 

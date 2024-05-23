@@ -1,5 +1,5 @@
 package com.example.diabee;
-import android.database.Cursor;
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
-import android.widget.GridView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -17,22 +16,35 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import com.google.android.material.button.MaterialButton;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 public class DetailActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
     private ListView StuffGridView;
+    public DecimalFormat df = new DecimalFormat("#.##");
+    private EditText weight;
+    private double result;
+
+    private EditText unit;
+    private String value;
+
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
+
         StuffGridView = (ListView) findViewById(R.id.listView);
         StuffGridView.setOnItemClickListener(this);
+
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -46,7 +58,7 @@ public class DetailActivity extends AppCompatActivity implements AdapterView.OnI
                 for (int i = 0; i < jsonArray.length(); i++) {
                     JSONArray item = jsonArray.getJSONArray(i);
                     String name = item.getString(0);
-                    String value = item.getString(2);
+                    value = item.getString(2);
                     String dataString = name + ": " + value;
                     dataList.add(dataString);
                 }
@@ -110,38 +122,87 @@ public class DetailActivity extends AppCompatActivity implements AdapterView.OnI
         String item = (String) parent.getItemAtPosition(position);
         final View customLayout = getLayoutInflater().inflate(R.layout.dialog_box, null);
 
-        final TextView TitleTextView = (TextView)customLayout.findViewById(R.id.Nazov);
-        final TextView SjTextView = (TextView)customLayout.findViewById(R.id.sj_num);
+        final TextView TitleTextView = customLayout.findViewById(R.id.Nazov);
+        final TextView SjTextView = customLayout.findViewById(R.id.sj_num);
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         String[] itemArray = item.split(" ");
         String name = null;
-        if (itemArray[1].contains("(")){
+        if (itemArray[1].contains("(")) {
             name = itemArray[0];
-        }
-        else if (itemArray[2].contains("(")){
-            name = itemArray[0];
-            name+=" "+itemArray[1];
-        }
-        else if (itemArray[3].contains("(")){
-            name = itemArray[0];
-            name+=" "+itemArray[1]+" "+itemArray[2];
-        }
-        else if (itemArray[4].contains("(")){
-            name = itemArray[0];
-            name+=" "+itemArray[1]+" "+itemArray[2]+" "+itemArray[3];
-        }
-        else if (itemArray[5].contains("(")){
-            name = itemArray[0];
-            name+=" "+itemArray[1]+" "+itemArray[2]+" "+itemArray[3]+" "+itemArray[4];
+        } else if (itemArray[2].contains("(")) {
+            name = itemArray[0] + " " + itemArray[1];
+        } else if (itemArray[3].contains("(")) {
+            name = itemArray[0] + " " + itemArray[1] + " " + itemArray[2];
+        } else if (itemArray[4].contains("(")) {
+            name = itemArray[0] + " " + itemArray[1] + " " + itemArray[2] + " " + itemArray[3];
+        } else if (itemArray[5].contains("(")) {
+            name = itemArray[0] + " " + itemArray[1] + " " + itemArray[2] + " " + itemArray[3] + " " + itemArray[4];
         }
 
-        String value = itemArray[itemArray.length-1];
+        value = itemArray[itemArray.length - 1];
         SjTextView.setText(value);
         TitleTextView.setText(name);
         builder.setView(customLayout);
 
-        builder.setPositiveButton("OK", null);
-        builder.show();
+
+        final AlertDialog alertDialog = builder.create();
+
+
+        MaterialButton closeButton = customLayout.findViewById(R.id.close_button);
+        MaterialButton calc_Button = customLayout.findViewById(R.id.calc_Button);
+        MaterialButton delete_Button = customLayout.findViewById(R.id.delete_Button);
+
+        closeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                alertDialog.dismiss(); // Zavrieť dialog
+            }
+        });
+        calc_Button.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                weight = customLayout.findViewById(R.id.editHmotnost);
+                unit = customLayout.findViewById(R.id.editSachJed);
+
+
+
+
+                if (weight!=null){
+                    try {
+                        value =value.replace(",",".");
+
+                        result = Double.parseDouble(value) * Double.parseDouble(weight.getText().toString()) / 100;
+                        result=Double.parseDouble(df.format(result));
+                        unit.setText(String.valueOf(result));
+                    } catch (NumberFormatException e) {
+                        Toast.makeText(getApplicationContext(), "Hmotnosť musí byť číslo", Toast.LENGTH_SHORT).show();
+                    }
+                }
+                else{
+                    Toast.makeText(getApplicationContext(), "Musíte zadať hmotnosť", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+        delete_Button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                weight = customLayout.findViewById(R.id.editHmotnost);
+                unit = customLayout.findViewById(R.id.editSachJed);
+                weight.setText("");
+                unit.setText("");
+            }
+        });
+
+        alertDialog.show();
     }
+
+
+
+
+
+
+
 }
