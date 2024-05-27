@@ -120,7 +120,7 @@ public class DetailActivity extends AppCompatActivity implements AdapterView.OnI
         return true;
     }
     private void filterCategories(String textfind) {
-        JSONArray jsonArray = loadJSONFromAsset("Pečivo.json");
+        JSONArray jsonArray = loadJSONFromAsset("vsetko.json");
         if (jsonArray != null) {
             try {
                 ArrayList<String> dataList = new ArrayList<>();

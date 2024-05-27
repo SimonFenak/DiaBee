@@ -143,7 +143,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         return true;
     }
     private void filterCategories(String textfind) {
-        JSONArray jsonArray = loadJSONFromAsset("Pečivo.json");
+        JSONArray jsonArray = loadJSONFromAsset("vsetko.json");
         if (jsonArray != null) {
             try {
                 final View customLayout = getLayoutInflater().inflate(R.layout.activity_main, null);
