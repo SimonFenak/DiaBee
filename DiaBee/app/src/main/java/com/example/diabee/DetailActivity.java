@@ -14,6 +14,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SearchView;
 import androidx.appcompat.widget.Toolbar;
 
 import com.google.android.material.button.MaterialButton;
@@ -99,8 +100,65 @@ public class DetailActivity extends AppCompatActivity implements AdapterView.OnI
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.toolbar_menu, menu);
+
+        MenuItem searchItem = menu.findItem(R.id.search);
+        SearchView searchView = (SearchView) searchItem.getActionView();
+
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                filterCategories(newText);
+                return true;
+            }
+        });
+
         return true;
     }
+    private void filterCategories(String textfind) {
+        JSONArray jsonArray = loadJSONFromAsset("Pečivo.json");
+        if (jsonArray != null) {
+            try {
+                ArrayList<String> dataList = new ArrayList<>();
+                ListView listResView = findViewById(R.id.resultView);
+                for (int i = 0; i < jsonArray.length(); i++) {
+                    JSONArray item = jsonArray.getJSONArray(i);
+                    String name = item.getString(0);
+                    if(name.toLowerCase().contains(textfind.toLowerCase()) && !textfind.isEmpty() && textfind.length()>=3){
+                        String value = item.getString(2);
+                        String dataString = name + ": " + value;
+                        dataList.add(dataString);
+                        listResView.setVisibility(View.VISIBLE);
+
+                    }
+
+                    if(!dataList.isEmpty()){
+                        StuffGridView.setVisibility(View.GONE);
+                    }
+                    else{
+                        StuffGridView.setVisibility(View.VISIBLE);
+                    }
+
+
+                }
+                System.out.println(dataList);
+                ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, dataList);
+
+
+                listResView.setAdapter(adapter);
+                listResView.setOnItemClickListener(this);
+
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
