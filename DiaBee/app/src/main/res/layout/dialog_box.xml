@@ -138,7 +138,7 @@
                 android:padding="6dp"
                 android:text="ZAVRIEŤ"
                 android:textColor="@color/black"
-                android:textSize="15sp"
+                android:textSize="14sp"
                 android:textStyle="bold" />
 
             <com.google.android.material.button.MaterialButton
@@ -151,7 +151,7 @@
                 android:padding="6dp"
                 android:text="PREPOČET"
                 android:textColor="@color/black"
-                android:textSize="15sp"
+                android:textSize="14sp"
                 android:textStyle="bold" />
 
             <com.google.android.material.button.MaterialButton
@@ -164,7 +164,7 @@
                 android:padding="6dp"
                 android:text="VYMAŽ"
                 android:textColor="@color/white"
-                android:textSize="15sp"
+                android:textSize="14sp"
                 android:textStyle="bold" />
 
         </LinearLayout>
