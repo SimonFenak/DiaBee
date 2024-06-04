@@ -196,6 +196,8 @@ public class DetailActivity extends AppCompatActivity implements AdapterView.OnI
             name = itemArray[0] + " " + itemArray[1] + " " + itemArray[2] + " " + itemArray[3];
         } else if (itemArray[5].contains("(")) {
             name = itemArray[0] + " " + itemArray[1] + " " + itemArray[2] + " " + itemArray[3] + " " + itemArray[4];
+        }else{
+            name = itemArray[0] + " " + itemArray[1] + " " + itemArray[2] + " " + itemArray[3] + " " + itemArray[4]+" "+itemArray[5];
         }
 
         value = itemArray[itemArray.length - 1];
