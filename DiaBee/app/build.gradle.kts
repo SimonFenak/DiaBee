@@ -32,6 +32,7 @@ android {
 }
 
 dependencies {
+    implementation (libs.android.gif.drawable)
 
     implementation(libs.appcompat)
     implementation(libs.material)
