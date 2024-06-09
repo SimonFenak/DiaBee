@@ -48,6 +48,7 @@
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/buttonCategories"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -68,6 +69,7 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/buttonFavorites"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -114,7 +116,7 @@
                 android:layout_marginLeft="50dp"
                 android:background="@drawable/custom_edit"
                 android:gravity="center_horizontal"
-                android:inputType="number"
+                android:inputType="number|numberDecimal"
                 android:padding="5dp"
                 android:text="1"
                 android:textSize="30sp"

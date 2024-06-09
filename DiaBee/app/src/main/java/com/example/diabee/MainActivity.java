@@ -1,14 +1,7 @@
 package com.example.diabee;
 
-import android.Manifest;
-import android.app.AlarmManager;
-import android.app.NotificationChannel;
-import android.app.NotificationManager;
-import android.app.PendingIntent;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.content.res.AssetManager;
-import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -23,7 +16,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
@@ -45,7 +37,6 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
 
     private static final String TAG = "MainActivity";
-    private static final int RC_NOTIFICATION = 99;
     private SearchView searchView;
     public DecimalFormat df = new DecimalFormat("#.##");
     private EditText unit;
@@ -56,13 +47,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        createNotificationChannel(); // Vytvara kanal pre notifikacie
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
 
-         gridLayout = findViewById(R.id.gridLayout);
+        gridLayout = findViewById(R.id.gridLayout);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -158,10 +148,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                     JSONArray item = jsonArray.getJSONArray(i);
                     String name = item.getString(0);
                     if(name.toLowerCase().contains(textfind.toLowerCase()) && !textfind.isEmpty() && textfind.length()>=3){
-                    String value = item.getString(2);
-                    String dataString = name + ": " + value;
-                    dataList.add(dataString);
-                    listView.setVisibility(View.VISIBLE);
+                        String value = item.getString(2);
+                        String dataString = name + ": " + value;
+                        dataList.add(dataString);
+                        listView.setVisibility(View.VISIBLE);
 
 
                     }
@@ -186,91 +176,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             }
         }
     }
-// ---------------------------------- ALARM MANAGER -----------------------------------------------------
-    // pri android verziach < 13 bude asi treba povolit notifikacie v nastaveniach
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        int id = item.getItemId();
-        if (id == R.id.category){
-            Toast.makeText(this, "kategorie", Toast.LENGTH_SHORT).show();
-        }
-        if (id == R.id.oblubene){
-            Toast.makeText(this, "oblubene", Toast.LENGTH_SHORT).show();
-        }
-        if (id == R.id.voda) {
-            if (item.isChecked()) {
-                item.setChecked(false);
-                cancelAlarm();
-            } else {
-                item.setChecked(true);
-                startRepeatingAlarm();
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-                    requestPermissions(new String[]{Manifest.permission.POST_NOTIFICATIONS}, RC_NOTIFICATION);
-                }
 
-            }
-            Toast.makeText(this, "voda", Toast.LENGTH_SHORT).show();
-        }
-        return true;
-    }
-
-
-    // overovanie
-    @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-
-        if (requestCode == RC_NOTIFICATION) {
-            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                Toast.makeText(this, "ALLOWED", Toast.LENGTH_SHORT).show();
-            } else {
-                Toast.makeText(this, "DENIED", Toast.LENGTH_SHORT).show();
-            }
-        }
-    }
-
-
-
-    private void startRepeatingAlarm() {
-        Intent intent = new Intent(MainActivity.this, ReminderBroadcast.class);
-        PendingIntent pendingIntent = PendingIntent.getBroadcast(MainActivity.this, 0, intent, PendingIntent.FLAG_IMMUTABLE);
-
-        AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
-
-        long intervalMillis = 10; // 10 seconds POSIELA TO KAZDU MINUTU JE TO SRACKA NECHCE TO DAT MENEJ
-        long triggerTime = System.currentTimeMillis() + intervalMillis;
-
-        if (alarmManager != null) {
-            alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, triggerTime, intervalMillis, pendingIntent);
-        }
-    }
-
-    private void cancelAlarm() {
-        Intent intent = new Intent(MainActivity.this, ReminderBroadcast.class);
-        PendingIntent pendingIntent = PendingIntent.getBroadcast(MainActivity.this, 0, intent, PendingIntent.FLAG_IMMUTABLE);
-
-        AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
-
-        if (alarmManager != null) {
-            alarmManager.cancel(pendingIntent);
-        }
-    }
-
-    private void createNotificationChannel() {
-        CharSequence name = "VodaReminder";
-        String description = "Oznamenie pre napitie sa vody";
-        int importance = NotificationManager.IMPORTANCE_DEFAULT;
-        NotificationChannel channel = null;
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            channel = new NotificationChannel("napiSaVody", name, importance);
-            channel.setDescription(description);
-            NotificationManager notificationManager = getSystemService(NotificationManager.class);
-            notificationManager.createNotificationChannel(channel);
-        }
-    }
-
-
-    // -----------------------------------------------------------------------------------------------------------
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {

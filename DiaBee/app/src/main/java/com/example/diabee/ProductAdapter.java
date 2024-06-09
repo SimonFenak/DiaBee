@@ -166,7 +166,7 @@ public class ProductAdapter extends ArrayAdapter<String> {
             } else {
                 try {
                     String favorites = loadFavoritesFromJson();
-                    System.out.println(favorites);
+                    //System.out.println(favorites);
                     String item = dataList.get(position);
                     itemFavorite.setChecked(false);
                     String[] itemiki = item.split(":");
@@ -208,7 +208,7 @@ public class ProductAdapter extends ArrayAdapter<String> {
             // Reťazec s načítanými dátami
             jsonString = stringBuilder.toString();
             dataString=jsonString;
-            System.out.println(jsonString);
+            //System.out.println(jsonString);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -222,6 +222,7 @@ public class ProductAdapter extends ArrayAdapter<String> {
 
             // Zapisovanie dát do súboru
             fos.write(favorites.getBytes());
+            //System.out.println(favorites.getBytes());
 
             // Zatvorenie FileOutputStream
             fos.close();
@@ -232,7 +233,11 @@ public class ProductAdapter extends ArrayAdapter<String> {
     private boolean overenie(String name,CheckBox itemFavorite){
         try {
             String ujo=loadFavoritesFromJson();
-            if(ujo.contains(name)){
+            System.out.println("UJO:");
+            System.out.println(ujo);
+            //System.out.println("Name"+name+", "+value);
+            if(ujo.contains(name+", "+value)){
+                System.out.println(name+", "+value+"      JE V ZOZNAME");
                 return true;
             }
         } catch (IOException e) {

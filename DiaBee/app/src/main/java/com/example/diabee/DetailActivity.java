@@ -1,6 +1,7 @@
 package com.example.diabee;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -160,10 +161,15 @@ public class DetailActivity extends AppCompatActivity implements AdapterView.OnI
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
         if (id == R.id.category) {
-            Toast.makeText(this, "kategorie", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(DetailActivity.this, MainActivity.class);
+            startActivity(intent);
+            finish(); // ukončí DetailActivity, takže keď sa používateľ vráti, vráti sa do MainActivity
+            return true;
         }
         if (id == R.id.oblubene) {
-            Toast.makeText(this, "oblubene", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(this, DetailActivity.class);
+            startActivity(intent);
+            return true;
         }
         if (id == R.id.voda) {
             Toast.makeText(this, "voda", Toast.LENGTH_SHORT).show();
