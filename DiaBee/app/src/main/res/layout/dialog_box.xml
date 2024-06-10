@@ -84,12 +84,13 @@
             app:layout_constraintTop_toBottomOf="@+id/textHmotnost" />
 
         <TextView
+            android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="g"
-            android:textSize="17dp"
             android:layout_marginLeft="2dp"
             android:layout_marginTop="18dp"
+            android:text="g"
+            android:textSize="17dp"
             app:layout_constraintStart_toEndOf="@+id/editHmotnost"
             app:layout_constraintTop_toBottomOf="@+id/textHmotnost" />
 
@@ -117,6 +118,15 @@
             android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textSachJed" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/fav_0"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/editSachJed"
+            app:layout_constraintTop_toBottomOf="@+id/editHmotnost" />
 
         <LinearLayout
             android:layout_width="wrap_content"
