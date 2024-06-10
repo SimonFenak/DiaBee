@@ -63,6 +63,7 @@ public class Main_menu extends AppCompatActivity {
     // Method to open Favorites activity
     public void openFavorites(View view) {
         Intent intent = new Intent(this, DetailActivity.class);
+        intent.putExtra("category", "favorite");
         startActivity(intent);
     }
 

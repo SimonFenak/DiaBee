@@ -6,7 +6,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -23,6 +22,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 
 import java.io.BufferedReader;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -45,22 +45,38 @@ public class DetailActivity extends AppCompatActivity implements AdapterView.OnI
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
-        StuffGridView = (ListView) findViewById(R.id.listView);
+        StuffGridView =  findViewById(R.id.listView);
         StuffGridView.setOnItemClickListener(this);
-
+        JSONArray jsonArray;
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         String category = getIntent().getStringExtra("category");
-
-        JSONArray jsonArray = loadJSONFromAsset(category + ".json");
+        if (category.contains("favorite")){
+            try {
+                jsonArray = loadFavoritesFromJson();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            } catch (JSONException e) {
+                throw new RuntimeException(e);
+            }
+        }
+        else{
+          jsonArray = loadJSONFromAsset(category + ".json");}
         if (jsonArray != null) {
             try {
                 ArrayList<String> dataList = new ArrayList<>();
                 for (int i = 0; i < jsonArray.length(); i++) {
                     JSONArray item = jsonArray.getJSONArray(i);
-                    String name = item.getString(0);
-                    value = item.getString(2);
+                    String name;
+
+                    if(category.contains("favorite")){
+                        name = item.getString(0)+","+item.getString(1);
+                    value = item.getString(2)+","+item.getString(3);}
+                    else {
+                        name = item.getString(0);
+                        value = item.getString(2);
+                    }
                     String dataString = name + ": " + value;
                     dataList.add(dataString);
                 }
@@ -101,7 +117,6 @@ public class DetailActivity extends AppCompatActivity implements AdapterView.OnI
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.toolbar_menu, menu);
-
         MenuItem searchItem = menu.findItem(R.id.search);
         SearchView searchView = (SearchView) searchItem.getActionView();
 
@@ -125,28 +140,35 @@ public class DetailActivity extends AppCompatActivity implements AdapterView.OnI
         JSONArray jsonArray = loadJSONFromAsset("vsetko.json");
         if (jsonArray != null) {
             try {
+                final View customLayout = getLayoutInflater().inflate(R.layout.activity_main, null);
+
                 ArrayList<String> dataList = new ArrayList<>();
-                ListView listResView = findViewById(R.id.resultView);
+                ListView listView = findViewById(R.id.resultView);
                 for (int i = 0; i < jsonArray.length(); i++) {
                     JSONArray item = jsonArray.getJSONArray(i);
                     String name = item.getString(0);
-                    if (name.toLowerCase().contains(textfind.toLowerCase()) && !textfind.isEmpty() && textfind.length() >= 3) {
+                    if(name.toLowerCase().contains(textfind.toLowerCase()) && !textfind.isEmpty() && textfind.length()>=3){
                         String value = item.getString(2);
                         String dataString = name + ": " + value;
                         dataList.add(dataString);
-                        listResView.setVisibility(View.VISIBLE);
+                        listView.setVisibility(View.VISIBLE);
+
+
                     }
 
-                    if (!dataList.isEmpty()) {
+                    if(!dataList.isEmpty()){
                         StuffGridView.setVisibility(View.GONE);
-                    } else {
+                    }
+                    else{
                         StuffGridView.setVisibility(View.VISIBLE);
                     }
+
                 }
                 System.out.println(dataList);
-                ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, dataList);
+                ProductAdapter adapter = new ProductAdapter(this, dataList);
 
-                listResView.setAdapter(adapter);
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(this);
 
 
             } catch (JSONException e) {
@@ -154,6 +176,7 @@ public class DetailActivity extends AppCompatActivity implements AdapterView.OnI
             }
         }
     }
+
 
 
     public void kliknutie_na_item(AdapterView<?> parent, View view, int position, long id) {
@@ -247,4 +270,72 @@ public class DetailActivity extends AppCompatActivity implements AdapterView.OnI
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
     }
+
+    private JSONArray loadFavoritesFromJson() throws IOException, JSONException {
+        JSONArray jsonArray = new JSONArray();
+        try {
+            // Otvorenie súboru 'data.json' na čítanie
+            FileInputStream fis = this.openFileInput("data.json");
+            InputStreamReader isr = new InputStreamReader(fis);
+            BufferedReader bufferedReader = new BufferedReader(isr);
+
+            // Načítanie dát zo súboru
+            StringBuilder stringBuilder = new StringBuilder();
+            String line;
+            while ((line = bufferedReader.readLine()) != null) {
+                stringBuilder.append(line);
+            }
+
+            // Zatvorenie FileInputStream
+            fis.close();
+
+            // Reťazec s načítanými dátami
+            String rawString = stringBuilder.toString();
+
+            // Transform the raw string to JSON array
+            String jsonString = transformStringToJsonArray(rawString);
+            jsonArray = new JSONArray(jsonString);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return jsonArray;
+    }
+
+    private String transformStringToJsonArray(String rawString) {
+        // Remove leading and trailing spaces and replace "][" with "],["
+        rawString = rawString.trim().replaceAll("\\]\\[", "],[");
+
+        // Wrap the string in square brackets to make it a valid JSON array
+        String jsonString = "[" + rawString + "]";
+
+        // Transform the entries into valid JSON arrays
+        StringBuilder transformedString = new StringBuilder("[");
+
+        String[] entries = jsonString.substring(1, jsonString.length() - 1).split("\\],\\[");
+        for (String entry : entries) {
+            entry = entry.replace("[", "").replace("]", "");  // Remove any leftover brackets
+            String[] parts = entry.split(",");
+
+            // Form a JSON array entry
+            transformedString.append("[");
+            for (String part : parts) {
+                part = part.trim().replaceAll("\"", "\\\""); // Escape quotes and trim spaces
+                transformedString.append("\"").append(part).append("\",");
+            }
+
+            if (transformedString.length() > 1) {
+                transformedString.setLength(transformedString.length() - 1); // Remove the last comma
+            }
+            transformedString.append("],");
+        }
+
+        if (transformedString.length() > 1) {
+            transformedString.setLength(transformedString.length() - 1); // Remove the last comma
+        }
+        transformedString.append("]");
+
+        return transformedString.toString();
+    }
+
 }

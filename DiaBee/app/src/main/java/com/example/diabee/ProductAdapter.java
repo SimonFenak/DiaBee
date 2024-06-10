@@ -29,7 +29,7 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 public class ProductAdapter extends ArrayAdapter<String> {
-    private boolean rob=false;
+    private boolean rob = false;
     private Context context;
     private ArrayList<String> dataList;
     String dataString = "";
@@ -63,9 +63,6 @@ public class ProductAdapter extends ArrayAdapter<String> {
         name = parts[0];
         value = parts[1];
 
-        if(overenie(name,itemFavorite)){
-            itemFavorite.setChecked(true);
-        }
 
         itemName.setText(name);
         itemValue.setText(value);
@@ -99,16 +96,20 @@ public class ProductAdapter extends ArrayAdapter<String> {
             TitleTextView.setText(name);
             builder.setView(customLayout);
 
-            final AlertDialog alertDialog = builder.create();
 
+            final AlertDialog alertDialog = builder.create();
+            CheckBox favoritka = customLayout.findViewById(R.id.favoritne);
             MaterialButton closeButton = customLayout.findViewById(R.id.close_button);
             MaterialButton calc_Button = customLayout.findViewById(R.id.calc_Button);
             MaterialButton delete_Button = customLayout.findViewById(R.id.delete_Button);
-
+            if(overenie(name,favoritka)){
+                favoritka.setChecked(true);
+            }
             closeButton.setOnClickListener(v -> alertDialog.dismiss());
             calc_Button.setOnClickListener(v -> {
                 weight = customLayout.findViewById(R.id.editHmotnost);
                 unit = customLayout.findViewById(R.id.editSachJed);
+
 
                 if (weight.getText().toString().isEmpty()) {
                     Toast.makeText(context, "Musíte zadať hmotnosť", Toast.LENGTH_SHORT).show();
@@ -132,6 +133,7 @@ public class ProductAdapter extends ArrayAdapter<String> {
                         Toast.makeText(context, "Hmotnosť musí byť číslo", Toast.LENGTH_SHORT).show();
                     }
                 }
+
             });
             delete_Button.setOnClickListener(v -> {
                 weight = customLayout.findViewById(R.id.editHmotnost);
@@ -139,10 +141,49 @@ public class ProductAdapter extends ArrayAdapter<String> {
                 weight.setText("");
                 unit.setText("");
             });
+            favoritka.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                if (isChecked) {
+                    try {
+                        String favorites = loadFavoritesFromJson();
+                        String itemicek = dataList.get(position);
 
+                        System.out.println(itemicek);
+
+                        String[] itemiki = itemicek.split(":");
+
+                        favorites += "[" + itemiki[0] + ",\n" + itemiki[1] + "]";
+                        saveFavoritesToJson(favorites);
+                        System.out.println(favorites);
+                        Toast.makeText(context, "Item added to favorites", Toast.LENGTH_SHORT).show();
+                    } catch (IOException | JSONException e) {
+                        e.printStackTrace();
+                        Toast.makeText(context, "Failed to add item to favorites", Toast.LENGTH_SHORT).show();
+                    }
+                }
+                else {
+                    try {
+                        String favorites = loadFavoritesFromJson();
+                        //System.out.println(favorites);
+                        String itemicek = dataList.get(position);
+                        itemFavorite.setChecked(false);
+                        String[] itemiki = itemicek.split(":");
+                        String skuska="[" + itemiki[0] + "," + itemiki[1] + "]";
+                        System.out.println();
+                        if(favorites.contains("[" + itemiki[0] + "," + itemiki[1] + "]")){
+                            favorites=favorites.replace("[" + itemiki[0] + "," + itemiki[1] + "]","");}
+                        System.out.println(favorites);
+                        saveFavoritesToJson(favorites);
+                    } catch (IOException e) {
+                        throw new RuntimeException(e);
+                    } catch (JSONException e) {
+                        throw new RuntimeException(e);
+                    }
+
+                }
+            });
             alertDialog.show();
         });
-
+/*
         // Set OnCheckedChangeListener for the CheckBox
         itemFavorite.setOnCheckedChangeListener((buttonView, isChecked) -> {
             if (rob){
@@ -183,69 +224,79 @@ public class ProductAdapter extends ArrayAdapter<String> {
             }}
         });
         rob=true;
-        return convertView;
+        */
+        return convertView;}
 
-    }
 
-    private String loadFavoritesFromJson() throws IOException, JSONException {
-        String jsonString = "";
-        try {
-            // Otvorenie súboru 'data.json' na čítanie
-            FileInputStream fis = context.openFileInput("data.json");
-            InputStreamReader isr = new InputStreamReader(fis);
-            BufferedReader bufferedReader = new BufferedReader(isr);
+        private String loadFavoritesFromJson () throws IOException, JSONException {
+            String jsonString = "";
+            try {
+                // Otvorenie súboru 'data.json' na čítanie
+                FileInputStream fis = context.openFileInput("data.json");
+                InputStreamReader isr = new InputStreamReader(fis);
+                BufferedReader bufferedReader = new BufferedReader(isr);
 
-            // Načítanie dát zo súboru
-            StringBuilder stringBuilder = new StringBuilder();
-            String line;
-            while ((line = bufferedReader.readLine()) != null) {
-                stringBuilder.append(line);
+                // Načítanie dát zo súboru
+                StringBuilder stringBuilder = new StringBuilder();
+                String line;
+                while ((line = bufferedReader.readLine()) != null) {
+                    stringBuilder.append(line);
+                }
+
+                // Zatvorenie FileInputStream
+                fis.close();
+
+                // Reťazec s načítanými dátami
+                jsonString = stringBuilder.toString();
+                dataString = jsonString;
+                //System.out.println(jsonString);
+            } catch (Exception e) {
+                e.printStackTrace();
             }
-
-            // Zatvorenie FileInputStream
-            fis.close();
-
-            // Reťazec s načítanými dátami
-            jsonString = stringBuilder.toString();
-            dataString=jsonString;
-            //System.out.println(jsonString);
-        } catch (Exception e) {
-            e.printStackTrace();
+            return jsonString;
         }
-        return jsonString;
-    }
 
-    private void saveFavoritesToJson(String favorites) throws IOException {
+        private void saveFavoritesToJson (String favorites) throws IOException {
+            try {
+                // Vytvorenie (alebo otvorenie existujúceho) súboru 'data.json' v internom úložisku
+                FileOutputStream fos = context.openFileOutput("data.json", MODE_PRIVATE);
+
+                // Zapisovanie dát do súboru
+                fos.write(favorites.getBytes());
+                //System.out.println(favorites.getBytes());
+
+                // Zatvorenie FileOutputStream
+                fos.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        private boolean overenie (String name, CheckBox itemFavorite){
+            try {
+                String ujo = loadFavoritesFromJson();
+                System.out.println("UJO:");
+                System.out.println(ujo);
+                //System.out.println("Name"+name+", "+value);
+                if (ujo.contains(name)) {
+                    System.out.println(name + ", " + value + "      JE V ZOZNAME");
+                    return true;
+                }
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            } catch (JSONException e) {
+                throw new RuntimeException(e);
+            }
+            return false;
+        }
+    private void clearFavoritesFile() throws IOException {
         try {
-            // Vytvorenie (alebo otvorenie existujúceho) súboru 'data.json' v internom úložisku
+            // Otvorenie (alebo vytvorenie nového) súboru 'data.json' v internom úložisku
             FileOutputStream fos = context.openFileOutput("data.json", MODE_PRIVATE);
 
-            // Zapisovanie dát do súboru
-            fos.write(favorites.getBytes());
-            //System.out.println(favorites.getBytes());
-
-            // Zatvorenie FileOutputStream
+            // Zatvorenie FileOutputStream bez zapisovania dát vyprázdni súbor
             fos.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
-    private boolean overenie(String name,CheckBox itemFavorite){
-        try {
-            String ujo=loadFavoritesFromJson();
-            System.out.println("UJO:");
-            System.out.println(ujo);
-            //System.out.println("Name"+name+", "+value);
-            if(ujo.contains(name+", "+value)){
-                System.out.println(name+", "+value+"      JE V ZOZNAME");
-                return true;
-            }
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        } catch (JSONException e) {
-            throw new RuntimeException(e);
-        }
-        return false;
     }
-
-}
