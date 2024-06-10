@@ -1,7 +1,6 @@
 package com.example.diabee;
 
 import android.annotation.SuppressLint;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -13,7 +12,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
@@ -157,25 +155,6 @@ public class DetailActivity extends AppCompatActivity implements AdapterView.OnI
         }
     }
 
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        int id = item.getItemId();
-        if (id == R.id.category) {
-            Intent intent = new Intent(DetailActivity.this, MainActivity.class);
-            startActivity(intent);
-            finish(); // ukončí DetailActivity, takže keď sa používateľ vráti, vráti sa do MainActivity
-            return true;
-        }
-        if (id == R.id.oblubene) {
-            Intent intent = new Intent(this, DetailActivity.class);
-            startActivity(intent);
-            return true;
-        }
-        if (id == R.id.voda) {
-            Toast.makeText(this, "voda", Toast.LENGTH_SHORT).show();
-        }
-        return true;
-    }
 
     public void kliknutie_na_item(AdapterView<?> parent, View view, int position, long id) {
         String item = (String) parent.getItemAtPosition(position);
