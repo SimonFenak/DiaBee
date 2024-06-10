@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#DDDDDD"
     android:orientation="vertical">
 
     <androidx.appcompat.widget.Toolbar
@@ -34,5 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="visible"
-        tools:visibility="visible" />
+        tools:visibility="visible"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="5.0sp"/>
 </LinearLayout>

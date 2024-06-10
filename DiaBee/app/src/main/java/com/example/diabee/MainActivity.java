@@ -61,8 +61,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             if (jsonArray != null) {
                 for (int i = 0; i < jsonArray.length(); i++) {
                     String category = jsonArray.getString(i);
-                    Log.d(TAG, "Category: " + category); // Kontrolný výpis
-                    Button button = createButtonForCategory(category);
+                    Log.d(TAG, "Category: " + category); // Log the category
+                    Button button = createButtonForCategory(category, i); // Pass the index
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
@@ -77,11 +77,29 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         }
     }
 
-    private Button createButtonForCategory(String category) {
+    private Button createButtonForCategory(String category, int index) {
         Button button = new Button(this);
-        button.setLayoutParams(new GridLayout.LayoutParams());
-        button.setText(category); // Nastaví text tlačidla na názov kategórie
-        button.setContentDescription(category);
+
+        // Set the layout parameters
+        GridLayout.LayoutParams params = new GridLayout.LayoutParams();
+        params.width = 0;
+        params.height = (int) (110 * getResources().getDisplayMetrics().density); // Convert 110sp to pixels
+        params.columnSpec = GridLayout.spec(GridLayout.UNDEFINED, 1f);
+        params.setMargins(
+                (int) (5 * getResources().getDisplayMetrics().density),  // Convert 5sp to pixels
+                (int) (15 * getResources().getDisplayMetrics().density), // Convert 15dp to pixels
+                (int) (5 * getResources().getDisplayMetrics().density),
+                (int) (5 * getResources().getDisplayMetrics().density)
+        );
+        button.setLayoutParams(params);
+
+        // Assign drawable resource based on the index
+        int drawableResourceId = getResources().getIdentifier("button_" + (index + 1), "drawable", getPackageName());
+        button.setBackgroundResource(drawableResourceId);
+
+        //button.setText(category); // Optionally set the category name as text
+        button.setContentDescription(category); // Optionally set content description
+
         return button;
     }
 
