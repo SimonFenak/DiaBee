@@ -116,15 +116,17 @@ public class ProductAdapter extends ArrayAdapter<String> {
                 } else {
                     try {
                         value = value.replace(",", ".");
+                        String skus=SjTextView.getText().toString();
+                        skus = skus.replace(",", ".");
 
-                        double valueParsed = Double.parseDouble(value);
+                        double valueParsed =Double.parseDouble(skus);
                         double weightParsed = Double.parseDouble(weight.getText().toString());
                         double result = valueParsed * weightParsed / 100;
 
                         // Format the result to #.##
                         DecimalFormat df = new DecimalFormat("#.##");
 
-                        result = Double.parseDouble(value) * Double.parseDouble(weight.getText().toString()) / 100;
+                        result = (valueParsed * weightParsed) / 100;
                         // Set the result to the unit TextView
                         unit.setText(String.valueOf(result));
                     } catch (NumberFormatException e) {
@@ -231,25 +233,20 @@ public class ProductAdapter extends ArrayAdapter<String> {
         private String loadFavoritesFromJson () throws IOException, JSONException {
             String jsonString = "";
             try {
-                // Otvorenie súboru 'data.json' na čítanie
                 FileInputStream fis = context.openFileInput("data.json");
                 InputStreamReader isr = new InputStreamReader(fis);
                 BufferedReader bufferedReader = new BufferedReader(isr);
 
-                // Načítanie dát zo súboru
                 StringBuilder stringBuilder = new StringBuilder();
                 String line;
                 while ((line = bufferedReader.readLine()) != null) {
                     stringBuilder.append(line);
                 }
 
-                // Zatvorenie FileInputStream
                 fis.close();
 
-                // Reťazec s načítanými dátami
                 jsonString = stringBuilder.toString();
                 dataString = jsonString;
-                //System.out.println(jsonString);
             } catch (Exception e) {
                 e.printStackTrace();
             }
